@@ -432,7 +432,7 @@ def bot(op):
             elif "Ginfo" == msg.text:
                 ginfo = cl.getGroup(msg.to)
                 try:
-                    gCreator = ginfo.⏩ผู้สร้างกลุ่ม⏪.displayName
+                    gCreator = ginfo.creator.displayName
                 except:
                     gCreator = "Error"
                 if wait["lang"] == "JP":
@@ -442,7 +442,7 @@ def bot(op):
                         sinvitee = str(len(ginfo.invitee))
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': ginfo.creator.mid}
-                cl.sendText(msg.to,"[Nama]\n" + str(ginfo.name) + "\n[Group Id]\n" + msg.to + "\n\n[Group Creator]\n" + gCreator + "\n\nAnggota:" + str(len(ginfo.members)) + "\nInvitation:" + sinvitee + "")
+                cl.sendText(msg.to,"[Nama]\n" + str(ginfo.name) + "\n[⏩ไอดีกลุ่ม⏪]\n" + msg.to + "\n\n[⏩ผู้สร้างกลุ่ม⏪]\n" + gCreator + "\n\nAnggota:" + str(len(ginfo.members)) + "\nInvitation:" + sinvitee + "")
                 cl.sendMessage(msg)
             elif "Contact" == msg.text:
                 msg.contentType = 13
