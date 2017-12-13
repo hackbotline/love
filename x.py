@@ -14,24 +14,24 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 helpMessage =""" ☆ Ķ͈̤̱͎̱̤̞̭͂̐͒́̀͗͞Ị̵̻̝̘͍͛̏̃͊̉͠ T̩͖͎̹̫͈̿̆̏́̑́S̤̲̯̤̹̲̲̘̏̋̈́̿͒ͅŲ̶̼̲̺̣̬̔̿͐̾̾͘Ṇ̶̨̛̲̭̝̲̝̪̎̾̈́͘͢͜͞É͎̱̺̜̐̀̿͘̕̕͢  B̴̡̛͈̖̺͖̙̝̩̞̐̂̀͂̏̚͟͠O̸̡̩̣̲̣̜̊̑̾̾͊̃͘͜ͅT Ç̵͔̟̫̰̮̺̟̥̂̋̂͋͐͛͑̔̚̚O̷̧̺̠̰̳̿́͆̕̕͠ͅ N̶͖̜̻̰͍̮̼̒́̐̑͒́̕ͅŢ̢̯̱͕̠͙̤̙̄̂͗̊̈́̕R̶̛̙̩̱̗̯͌̈͆̆Ơ̴̡͈̖̺͖̙̝̩̞̐̂̀͂̏̚͟͠L̸̡̩̣̲̣̜̊̑̾̾͊̃͘͜ͅ  ☆
-👉[Id]
-👉[Mid]
-👉[Me] 
+👉[Id]⏩ไอดี
+👉[Mid]⏩เอ็มไอดี
+👉[Me] ⏩คอนแทค
 👉[TL 「Text」
 👉[MyName]
 👉[I Gift]
 👉[Mid 「mid」
-👉[Group id]
-👉 [Group cancel]
-👉 [Tagall]
-👉 [Sider]
-👉 [Read]
+👉[Group id]⏩กลุ่มไอดี
+👉 [Group cancel]⏩ยกเชินกลุ่ม
+👉 [Tagall]⏩แท้กทั้งห้อง
+👉 [แอบ]⏩ตั้งเวลา
+👉 [อ่าน]⏩ดูคนอ่าน
 👉 [album 「id」]
 👉 [Hapus album 「id」
-👉 [Contact on] 
-👉 [Contact off] 
-👉 [Auto join on] 
-👉 [Auto join off] 
+👉 [Contact on] ⏩คอนแทคเปิด
+👉 [Contact off] ⏩คอนแทคปิด
+👉 [Auto join on] ⏩ออโต้เข้ากลุ่ม เปิด
+👉 [Auto join off] ⏩ออโต้เข้ากลุ่ม ปิด
 👉 [Cancelall]
 👉 [Cleanse]
 👉 [Auto leave on] 
@@ -52,28 +52,29 @@ helpMessage =""" ☆ Ķ͈̤̱͎̱̤̞̭͂̐͒́̀͗͞Ị̵̻̝̘͍͛̏̃͊̉͠ 
 👉 [Allbio: 「Isi Bio bot」] 
   
    [C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅ᴅ̶̲̅ ̶̲̅ɪ̶̲̅ɴ̶̲̅ ̶̲̅G̶̲̅ʀ̶̲̅ᴏ̶̲̅ᴜ̶̲̅ᴘ̶̲̅]
-👐 [Link on]
-👐 [Link off] 
-👐 [Invite「mid」] 
-👐 [Kmid: Kick by mid] 
-👐 [Ginfo] 
-👐 [Cancel]
-👐 [Copy @]
-👐 [Backup]
-👐 [Kuy]
-👐 [Papay]
-👐 [Gn 「Nama grup」
-👐 [Gurl]
-👐 [gurl「kelompok ID
-👐 [Nk「nama」]
-👐 [NK:]
-👐 [Ban:]
-👐 [Unban:]
-👐 [Protect on]
-👐 [qrprotect on/off]
-👐 [Inviteprotect on]
-👐 [Cancelprotect on]
-👐 [Staff add/remove @]
+👐 [Link on]⏩ลิ้งเปิด
+👐 [Link off] ⏩ลิ้งปิด
+👐 [Invite「mid」] ⏩เชิญด้วยเอ็มไอดี
+👐 [Kmid: Kick by mid]⏩ สั่งเตะด้วยเอ็มไอดี
+👐 [Ginfo] ⏩ข้อมูลกลุ่ม
+👐 [Cancel]⏩ยกเลิกเชินทั้งหมด
+👐 [pic @]⏩ก้อปรูป
+👐 [Copy @]⏩
+👐 [Backup]⏩แบล็คอัพ
+👐 [Kuy]⏩เรียกคิก
+👐 [Papay]⏩คิกออก
+👐 [Gn 「Nama grup」⏩เปลี่ยนชื่อกลุ่ม
+👐 [Gurl]⏩
+👐 [gurl「kelompok ID⏩
+👐 [Nk「nama」]⏩
+👐 [NK:]⏩สั่งเตะ
+👐 [Ban:]⏩สั่งดำทั้งหมด
+👐 [Unban:]⏩สั่งขาวทั้งหมด
+👐 [Protect on/off]⏩ป้องกัน เปิด/ปิด
+👐 [qrprotect on/off]⏩ล้อกคิวอาร์โค้ต เปิด/ปิด
+👐 [Inviteprotect on]⏩เชิญ เปิด/ปิด
+👐 [Cancelprotect on]⏩ยกเลิกเชิน เปิด/ปิด
+👐 [Staff add/remove @]⏩
          ✯==== Creator ====✯
 	
   http://line.me/ti/p/~getk3333
@@ -81,7 +82,7 @@ helpMessage =""" ☆ Ķ͈̤̱͎̱̤̞̭͂̐͒́̀͗͞Ị̵̻̝̘͍͛̏̃͊̉͠ 
 """
 helo=""
 
-KAC=[cl,ki,ki2,ki3,ki4]
+KAC=[cl]
 mid = cl.getProfile().mid
 Bots = [mid]
 admsa = "uca51afa767df87ba3705494b97c3355c"
@@ -129,11 +130,6 @@ mybackup.displayName = contact.displayName
 mybackup.statusMessage = contact.statusMessage
 mybackup.pictureStatus = contact.pictureStatus
 
-contact = ki.getProfile()
-backup = ki.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
 
 def cms(string, commands): #/XXX, >XXX, ;XXX, ^XXX, %XXX, $XXX...
     tex = ["+","@","/",">",";","^","%","$","＾","サテラ:","サテラ:","サテラ：","サテラ："]
@@ -436,7 +432,7 @@ def bot(op):
             elif "Ginfo" == msg.text:
                 ginfo = cl.getGroup(msg.to)
                 try:
-                    gCreator = ginfo.creator.displayName
+                    gCreator = ginfo.⏩ผู้สร้างกลุ่ม⏪.displayName
                 except:
                     gCreator = "Error"
                 if wait["lang"] == "JP":
@@ -524,6 +520,28 @@ def bot(op):
                   except Exception as error:
                       print error
 #-------------Fungsi Tag All Finish---------------#
+            elif "pic @" in msg.text:
+                print "[Command]dp executing"
+                _name = msg.text.replace("Ppc @","")
+                _nametarget = _name.rstrip('  ')
+                gs = cl.getGroup(msg.to)
+                targets = []
+                for g in gs.members:
+                    if _nametarget == g.displayName:
+                        targets.append(g.mid)
+                if targets == []:
+                    ki.sendText(msg.to,"Contact not found")
+                else:
+                    for target in targets:
+                        try:
+                            contact = cl.getContact(target)
+                            path = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
+                            cu = cl.channel.getCover(target)          
+                            path2 = str(cu)
+                            cl.sendImageWithURL(msg.to, path)
+                            cl.sendImageWithURL(msg.to, path2)
+                        except Exception as e:
+    						raise e 
 
 #---------------------------------------------------------
             elif "1name:" in msg.text:
