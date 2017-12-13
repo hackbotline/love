@@ -429,7 +429,7 @@ def bot(op):
                         cl.sendText(msg.to,"It can not be used outside the group  👈")
                     else:
                         cl.sendText(msg.to,"Can not be used for groups other than ô€œ")
-            elif "Ginfo" == msg.text:
+            elif "ginfo" == msg.text:
                 ginfo = cl.getGroup(msg.to)
                 try:
                     gCreator = ginfo.creator.displayName
@@ -520,7 +520,7 @@ def bot(op):
                   except Exception as error:
                       print error
 #-------------Fungsi Tag All Finish---------------#
-            elif "pic @" in msg.text:
+            elif "Pc @" in msg.text:
                 print "[Command]dp executing"
                 _name = msg.text.replace("Ppc @","")
                 _nametarget = _name.rstrip('  ')
@@ -542,7 +542,6 @@ def bot(op):
                             cl.sendImageWithURL(msg.to, path2)
                         except Exception as e:
     						raise e 
-
 #---------------------------------------------------------
             elif "1name:" in msg.text:
                 string = msg.text.replace("1name:","")
