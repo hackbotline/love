@@ -1,95 +1,79 @@
 # -*- coding: utf-8 -*-
 
-import TOBY
+import LINETCR
 from TOBY.lib.curve.ttypes import *
 from datetime import datetime
 import time,random,sys,json,codecs,threading,glob
 
-cl = TOBY.LINE()
-cl.login(qr=true)
+cl = LINETCR.LINE()
+cl.login(token="EnO84GK8uO6eTG0i2a37.MRMd87JLMY8NA0SCe7JEXW.TekDEDvOLIrVkeuZgywshCIwFEwzahlIyTHjuAjfKLA=")
 cl.loginResult()
-
-ki = TOBY.LINE()
-ki.login(token="EmV4o3JFXlJfb0d0jBPf.kWMNfbruKvmtKCYb1pBDtW.152WWBfyZXslE1RVV/3oFwJoJrYLt/PSPA69B3++qRk=")
-ki.loginResult()
-
-ki2 = TOBY.LINE()
-ki2.login(token="EngVtW9flCdMfGcCXTm0.8V1Jta/418TBYgV16PxNGa.k+iOOFkmZBxQ4/mVDG993+f5LNKBV27M/pJmWukSQsQ=")
-ki2.loginResult()
-
-ki3 = TOBY.LINE()
-ki3.login(token="EnrO3zqoyO8IQTNYX1td.6zkjQFWmC+uV1x5DkPufhq.S8Ci6WbGTwcZ+wJN6QCNOiDU0xOliTpQjYpMgQcr3ns=")
-ki3.loginResult()
-
-ki4 = TOBY.LINE()
-ki4.login(token="EnrO3zqoyO8IQTNYX1td.6zkjQFWmC+uV1x5DkPufhq.S8Ci6WbGTwcZ+wJN6QCNOiDU0xOliTpQjYpMgQcr3ns=")
-ki4.loginResult()
 
 print u"login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
 helpMessage =""" ☆ Ķ͈̤̱͎̱̤̞̭͂̐͒́̀͗͞Ị̵̻̝̘͍͛̏̃͊̉͠ T̩͖͎̹̫͈̿̆̏́̑́S̤̲̯̤̹̲̲̘̏̋̈́̿͒ͅŲ̶̼̲̺̣̬̔̿͐̾̾͘Ṇ̶̨̛̲̭̝̲̝̪̎̾̈́͘͢͜͞É͎̱̺̜̐̀̿͘̕̕͢  B̴̡̛͈̖̺͖̙̝̩̞̐̂̀͂̏̚͟͠O̸̡̩̣̲̣̜̊̑̾̾͊̃͘͜ͅT Ç̵͔̟̫̰̮̺̟̥̂̋̂͋͐͛͑̔̚̚O̷̧̺̠̰̳̿́͆̕̕͠ͅ N̶͖̜̻̰͍̮̼̒́̐̑͒́̕ͅŢ̢̯̱͕̠͙̤̙̄̂͗̊̈́̕R̶̛̙̩̱̗̯͌̈͆̆Ơ̴̡͈̖̺͖̙̝̩̞̐̂̀͂̏̚͟͠L̸̡̩̣̲̣̜̊̑̾̾͊̃͘͜ͅ  ☆
-􀜁􀇔􏿿 [Id]
-􀜁􀇔􏿿 [Mid]
-􀜁􀇔􏿿 [Me] 
-􀜁􀇔􏿿 [TL 「Text」
-􀜁􀇔􏿿 [MyName]
-􀜁􀇔􏿿 [I Gift]
-􀜁􀇔􏿿 [Mid 「mid」
-􀜁􀇔􏿿 [Group id]
-􀜁􀇔􏿿 [Group cancel]
-􀜁􀇔􏿿 [Tagall]
-􀜁􀇔􏿿 [Sider]
-􀜁􀇔􏿿 [Read]
-􀜁􀇔􏿿 [album 「id」]
-􀜁􀇔􏿿 [Hapus album 「id」
-􀜁􀇔􏿿 [Contact on] 
-􀜁􀇔􏿿 [Contact off] 
-􀜁􀇔􏿿 [Auto join on] 
-􀜁􀇔􏿿 [Auto join off] 
-􀜁􀇔􏿿 [Cancelall]
-􀜁􀇔􏿿 [Cleanse]
-􀜁􀇔􏿿 [Auto leave on] 
-􀜁􀇔􏿿 [Auto leave off]
-􀜁􀇔􏿿 [Auto add on/off] 
-􀜁􀇔􏿿 [Jam on]
-􀜁􀇔􏿿 [Jam off]
-􀜁􀇔􏿿 [Jam say]
-􀜁􀇔􏿿 [UP]
-􀜁􀇔􏿿 [Ban:on] 
-􀜁􀇔􏿿 [Unban:on]
-􀜁􀇔􏿿 [Banlist]
-􀜁􀇔􏿿 [Com on]
-􀜁􀇔􏿿 [Com set]
-􀜁􀇔􏿿 [Mcheck] 
-􀜁􀇔􏿿 [Message Confirmation] 
-􀜁􀇔􏿿 [Mybio: 「Isi Bio」]  
-􀜁􀇔􏿿 [Allbio: 「Isi Bio bot」] 
+👉[Id]
+👉[Mid]
+👉[Me] 
+👉[TL 「Text」
+👉[MyName]
+👉[I Gift]
+👉[Mid 「mid」
+👉[Group id]
+👉 [Group cancel]
+👉 [Tagall]
+👉 [Sider]
+👉 [Read]
+👉 [album 「id」]
+👉 [Hapus album 「id」
+👉 [Contact on] 
+👉 [Contact off] 
+👉 [Auto join on] 
+👉 [Auto join off] 
+👉 [Cancelall]
+👉 [Cleanse]
+👉 [Auto leave on] 
+👉 [Auto leave off]
+👉 [Auto add on/off] 
+👉 [Jam on]
+👉 [Jam off]
+👉 [Jam say]
+👉 [UP]
+👉 [Ban:on] 
+👉 [Unban:on]
+👉 [Banlist]
+👉 [Com on]
+👉 [Com set]
+👉 [Mcheck] 
+👉 [Message Confirmation] 
+👉 [Mybio: 「Isi Bio」]  
+👉 [Allbio: 「Isi Bio bot」] 
   
    [C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅ᴅ̶̲̅ ̶̲̅ɪ̶̲̅ɴ̶̲̅ ̶̲̅G̶̲̅ʀ̶̲̅ᴏ̶̲̅ᴜ̶̲̅ᴘ̶̲̅]
-􀜁􀇔􏿿 [Link on]
-􀜁􀇔􏿿 [Link off] 
-􀜁􀇔􏿿 [Invite「mid」] 
-􀜁􀇔􏿿 [Kmid: Kick by mid] 
-􀜁􀇔􏿿 [Ginfo] 
-􀜁􀇔􏿿 [Cancel]
-􀜁􀇔􏿿 [Copy @]
-􀜁􀇔􏿿 [Backup]
-􀜁􀇔􏿿 [Kuy]
-􀜁􀇔􏿿 [Papay]
-􀜁􀇔􏿿 [Gn 「Nama grup」
-􀜁􀇔􏿿 [Gurl]
-􀜁􀇔􏿿 [gurl「kelompok ID
-􀜁􀇔􏿿 [Nk「nama」]
-􀜁􀇔􏿿 [NK:]
-􀜁􀇔􏿿 [Ban:]
-􀜁􀇔􏿿 [Unban:]
-􀜁􀇔􏿿 [Protect on]
-􀜁􀇔􏿿 [qrprotect on/off]
-􀜁􀇔􏿿 [Inviteprotect on]
-􀜁􀇔􏿿 [Cancelprotect on]
-􀜁􀇔􏿿 [Staff add/remove @]
+👐 [Link on]
+👐 [Link off] 
+👐 [Invite「mid」] 
+👐 [Kmid: Kick by mid] 
+👐 [Ginfo] 
+👐 [Cancel]
+👐 [Copy @]
+👐 [Backup]
+👐 [Kuy]
+👐 [Papay]
+👐 [Gn 「Nama grup」
+👐 [Gurl]
+👐 [gurl「kelompok ID
+👐 [Nk「nama」]
+👐 [NK:]
+👐 [Ban:]
+👐 [Unban:]
+👐 [Protect on]
+👐 [qrprotect on/off]
+👐 [Inviteprotect on]
+👐 [Cancelprotect on]
+👐 [Staff add/remove @]
          ✯==== Creator ====✯
 	
   http://line.me/ti/p/~getk3333
@@ -99,11 +83,7 @@ helo=""
 
 KAC=[cl,ki,ki2,ki3,ki4]
 mid = cl.getProfile().mid
-kimid = ki.getProfile().mid
-ki2mid = ki2.getProfile().mid
-ki3mid = ki3.getProfile().mid
-ki4mid = ki4.getProfile().mid
-Bots = [mid,kimid,ki2mid,ki3mid,ki4mid]
+Bots = [mid]
 admsa = "uca51afa767df87ba3705494b97c3355c"
 admin = "uca51afa767df87ba3705494b97c3355c"
 
@@ -364,7 +344,8 @@ def bot(op):
             elif "Bot2" == msg.text:
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': ki2mid}
-                ki2.sendMessage(msg)
+                ki2.sendMessage(msg)
+
             elif msg.text in ["Bot1 Gift","Bot1 gift"]:
                 msg.contentType = 9
                 msg.contentMetadata={'PRDID': '3b92ccf5-54d3-4765-848f-c9ffdc1da020',
@@ -1578,7 +1559,8 @@ def bot(op):
                 text = profile.displayName + "􀜁􀅔􏿿"
                 ki.sendText(msg.to, text)
                 profile = ki3.getProfile()
-                text = profile.displayName + "􀜁􀅔􏿿"
+                text = profile.displayName + "􀜁􀅔􏿿"
+
 #-------------------------------------------------------------------
 
 #------------------------------------------------------------------	
