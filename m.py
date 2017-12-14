@@ -1053,7 +1053,7 @@ def bot(op):
                 if wait["likeOn"] == True: md+="✔ Auto like → on \n"
                 else:md+="✖ Auto like → off \n" 
 		if wait["protect"] == True: md+="✔ protect → on \n"
-                else:md+="✖ protect → \n" 
+                else:md+="✖ protect → off\n" 
 		if wait["linkprotect"] == True: md+="􀜁􀇔􏿿Link Protect:on 􀜁􀄯􏿿\n"
                 else:md+="􀜁􀇔􏿿 Link Protect:off 􀜁􀄰􏿿\n"
                 if wait["inviteprotect"] == True: md+="􀜁􀇔􏿿Invitation Protect:on 􀜁􀄯􏿿\n"
