@@ -32,11 +32,11 @@ helpMessage =""" ☆ Ķ͈̤̱͎̱̤̞̭͂̐͒́̀͗͞Ị̵̻̝̘͍͛̏̃͊̉͠ 
 👉 [Contact off] ⏩คอนแทคปิด
 👉 [Auto join on] ⏩ออโต้เข้ากลุ่ม เปิด
 👉 [Auto join off] ⏩ออโต้เข้ากลุ่ม ปิด
-👉 [Cancelall]
+👉 [Cancelall]⏩ยกเชิญทั้งหมด
 👉 [Cleanse]
-👉 [Auto leave on] 
-👉 [Auto leave off]
-👉 [Auto add on/off] 
+👉 [Auto leave on] ⏩ออโต้ออกแชทรวม เปิด
+👉 [Auto leave off]⏩ออโต้ออกแชทรวม ปิด
+👉 [Auto add on/off] ⏩ออโต้แอด เปิด/ปิด
 👉 [Jam on]
 👉 [Jam off]
 👉 [Jam say]
@@ -52,6 +52,7 @@ helpMessage =""" ☆ Ķ͈̤̱͎̱̤̞̭͂̐͒́̀͗͞Ị̵̻̝̘͍͛̏̃͊̉͠ 
 👉 [Allbio: 「Isi Bio bot」] 
   
    [C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅ᴅ̶̲̅ ̶̲̅ɪ̶̲̅ɴ̶̲̅ ̶̲̅G̶̲̅ʀ̶̲̅ᴏ̶̲̅ᴜ̶̲̅ᴘ̶̲̅]
+👐 [Rejectall]⏩ลบรันห้อง
 👐 [Link on]⏩ลิ้งเปิด
 👐 [Link off] ⏩ลิ้งปิด
 👐 [Invite「mid」] ⏩เชิญด้วยเอ็มไอดี
@@ -918,7 +919,15 @@ def bot(op):
                 if wait["lang"] == "JP":
                     cl.sendText(msg.to,"All invitations have been refused")
                 else:
-                    cl.sendText(msg.to,"æ‹’ç»äº†å…¨éƒ¨çš„é‚€è¯·ã€‚")	
+                    cl.sendText(msg.to,"æ‹’ç»äº†å…¨éƒ¨çš„é‚€è¯·ã€‚")
+	    elif msg.text in ["Rejectall"]:
+                gid = cl.getGroupIdsInvited()
+                for i in gid:
+                    cl.rejectGroupInvitation(i)
+                if wait["lang"] == "JP":
+                    cl.sendText(msg.to,"ลบรันเสร็จเรียบร้อย")
+                else:
+                    cl.sendText(msg.to,"key is wrong。")
             elif "Set album:" in msg.text:
                 gid = msg.text.replace("Set album:","")
                 album = cl.getAlbum(gid)
