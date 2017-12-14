@@ -190,7 +190,8 @@ Thank For Add Me
     "pnharfbot":{},
     "pname":{},
     "pro_name":{},    
-    "dblacklist":False
+    "dblacklist":False,
+    "protect":True,
 }
 
 wait2 = {
@@ -985,7 +986,19 @@ def bot(op):
                     if wait["lang"] == "JP":
                         cl.sendText(msg.to,"done")
                     else:
-                        cl.sendText(msg.to,"Already。")                        
+                        cl.sendText(msg.to,"Already。") 
+	    elif msg.text in ["Protect off"]:
+                if wait["protect"] == False:
+                    if wait["lang"] == "JP":
+                        cl.sendText(msg.to,"hall ini sudah off ô€œ👈")
+                    else:
+                        cl.sendText(msg.to,"sudah dimatikan ô€œô€„‰👈")
+                else:
+                    wait["protect"] = False
+                    if wait["lang"] == "JP":
+                        cl.sendText(msg.to,"already close")
+                    else:
+                        cl.sendText(msg.to,"It is already open ô€œ👈")
             elif "Set" == msg.text:
                 md = ""
                 if wait["contact"] == True: md+="✔ Contact → on \n"       
@@ -1004,6 +1017,8 @@ def bot(op):
                 else:md+="✖ Auto add → off \n"   
                 if wait["likeOn"] == True: md+="✔ Auto like → on \n"
                 else:md+="✖ Auto like → off \n" 
+		if wait["protect"] == True: md+="✔ protect → on \n"
+                else:md+="✖ protect → \n" 
                 cl.sendText(msg.to,md)
             elif msg.text in ["Group id","group id"]:
                 gid = cl.getGroupIdsJoined()
