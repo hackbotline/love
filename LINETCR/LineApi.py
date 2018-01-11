@@ -605,9 +605,9 @@ class LINE:
 
       prof = self.getProfile()
 
-      print(" •─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─• ")
-      print("mid ❂͜͡☆➣ " + prof.mid)
-      print("name ❂͜͡☆➣ " + prof.displayName)
-      print("authToken ❂͜͡☆➣ " + self.authToken)
+      print("╔══╦═╦═╗\n║║║║║║║║\n║║║║╦║║║\n╚╩╩╩╩╩╩╝️   •─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•\n•┅═ই۝ई═┅•────────────────")
+      print("✰Mid✰  " + prof.mid)
+      print("✰Name✰  " + prof.displayName)
+      print("✰authToken✰  " + self.authToken)
       print("cert -> " + self.cert if self.cert is not None else "")
 #-========-----------------
