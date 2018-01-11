@@ -605,9 +605,9 @@ class LINE:
 
       prof = self.getProfile()
 
-      print("R.A-BOT")
-      print("mid -> " + prof.mid)
-      print("name -> " + prof.displayName)
-      print("authToken -> " + self.authToken)
+      print(" •─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─• ")
+      print("mid ❂͜͡☆➣ " + prof.mid)
+      print("name ❂͜͡☆➣ " + prof.displayName)
+      print("authToken ❂͜͡☆➣ " + self.authToken)
       print("cert -> " + self.cert if self.cert is not None else "")
 #-========-----------------
