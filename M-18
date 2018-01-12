@@ -4839,7 +4839,7 @@ http://line.me/ti/p/~1ove..neverdie
 
 #===============================================
             elif msg.text == "แอบ":
-                    cl.sendText(msg.to, "•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─• (Set time)")
+                    cl.sendText(msg.to, "มีใครอยู่ไหม…… !?")
                     try:
                         del wait2['readPoint'][msg.to]
                         del wait2['readMember'][msg.to]
@@ -4848,7 +4848,7 @@ http://line.me/ti/p/~1ove..neverdie
                     now2 = datetime.now()
                     wait2['readPoint'][msg.to] = msg.id
                     wait2['readMember'][msg.to] = ""
-                    wait2['setTime'][msg.to] = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+                    wait2['setTime'][msg.to] = datetime.now().strftime('📅%d-%m-%Y ⏰%H:%M:%S')
                     wait2['ROM'][msg.to] = {}
                     print wait2
             elif msg.text == "อ่าน":
@@ -4860,7 +4860,7 @@ http://line.me/ti/p/~1ove..neverdie
                             for rom in wait2["ROM"][msg.to].items():
                                 print rom
                                 chiya += rom[1] + "\n"
-                        cl.sendText(msg.to, "╔═══════════════%s\n╠════════════════\n%s╠═══════════════\n║Readig point creation:\n║ [%s]\n╚════════════════"  % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
+                        cl.sendText(msg.to, "╔═════════════════%s\n╠═════════════════\n%s╠═════════════════\n║Readig point creation:\n║ [%s]\n╚══════════════════"  % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
                     else:
                         cl.sendText(msg.to, "Ketik Lurking dulu dudul Baru bilang result Point.")
 						
@@ -5933,6 +5933,19 @@ http://line.me/ti/p/~1ove..neverdie
                         except:
                             cl.sendText(msg.to,"Fail !")
                             break
+#=====================NOTIFED MEMBER JOIN GROUP========================
+        if op.type == 17:
+          #if wait["sambut"] == True:
+            if op.param2 in admin:
+                return
+            ginfo = cl.getGroup(op.param1)
+            contact = cl.getContact(op.param2)
+            image = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
+            cl.sendText(op.param1," Hello 😻 " + cl.getContact(op.param2).displayName + "\n✨ยินดีต้อนรับเข้าร่วมกลุ่ม✨\n☛ " + str(ginfo.name) + " ☚" + "\n\nUpdate your Membership Profile to Join The Group S suggestions  [⏰]  " +datetime.today().strftime('%H:%M:%S'))
+            cl.sendImageWithURL(op.param1,image)
+            print "ada orang masuk grup"
+            if msg.contentType == 16:
+                url = msg.contentMetadata["postEndUrl"]
 #=================================List mimic status===================
 	if op.type == 13:
             if op.param2 not in Bots:
@@ -5942,7 +5955,7 @@ http://line.me/ti/p/~1ove..neverdie
 		    wait ["blacklist"][op.param2] = True
 		    cl.cancelGroupInvitation(op.param1,[op.param3])
 		else:
-		    cl.sendText(op.param1,"「INVITE MEMBERs TO JOIN THE TIME GROUP」\n\n[⏰]  " +datetime.today().strftime('%H:%M:%S')) 
+		    cl.sendText(op.param1,"「INVITE MEMBER TO JOIN THE TIME GROUP」 [⏰] " +datetime.today().strftime('%H:%M:%S')) 
 	    if op.param2 not in Bots:
 		if op.param2 in Bots:
 		    pass
@@ -5950,12 +5963,7 @@ http://line.me/ti/p/~1ove..neverdie
 		    wait ["blacklist"][op.param2] = True
 		    cl.cancelGroupInvitation(op.param1,[op.param3])
 		else:
-		    cl.sendText(op.param1,"""[มีการเชิญสมาชิกเข้าร่วมกลุ่ม]\n\n[ ᴀᴅᴍɪɴ ʙᴏᴛ ]\n
-──────┅═ই۝ई═┅──────
-နับთิஏთั้ଏบਹທ  Sirichan V⒑
-สนใจติดต่อที่  ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ
-http://line.me/ti/p/~1ove..neverdie
-──────┅═ই۝ई═┅──────""")
+		    cl.sendText(op.param1,"☛ มีการเชิญสมาชิกเข้าร่วมกลุ่ม ☚ [⏰] " +datetime.today().strftime('%H:%M:%S'))
 	if op.type == 11:
 	    if op.param2 not in Bots:
 		if op.param2 in Bots:
@@ -5967,7 +5975,7 @@ http://line.me/ti/p/~1ove..neverdie
 		    cl.updateGroup(G)
 		    random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
 		else:
-		    cl.sendText(op.param1,"「YOU HAVE UPDATED THE LINK OF THE GROUP」\n\n[⏰]  " +datetime.today().strftime('%H:%M:%S'))
+		    cl.sendText(op.param1,"「YOU HAVE UPDATED THE LINK OF THE GROUP」\n☛ คุณได้อัพเดทลิงก์กลุ่ม ☚ [⏰] " +datetime.today().strftime('%H:%M:%S'))
 #===========================================
         if op.param3 == "1":
             if op.param1 in protectname:
