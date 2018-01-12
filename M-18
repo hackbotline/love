@@ -105,7 +105,7 @@ http://line.me/ti/p/~1ove..neverdie
 ❂͜͡☆➣ Cn: Display Name
 ❂͜͡☆➣ Cc: Clock Name
 ❂͜͡☆➣ Mc: Contact
-❂͜͡☆➣ Tl: text
+❂͜͡☆➣ Tl: [text]
 ❂͜͡☆➣ Auto join: on/off
 ❂͜͡☆➣ Auto add: on/off
 ❂͜͡☆➣ Auto leave: on/off
@@ -117,21 +117,40 @@ http://line.me/ti/p/~1ove..neverdie
 ❂͜͡☆➣ Comment: 
 ❂͜͡☆➣ Cbroadcast text
 ❂͜͡☆➣ Gbroadcast text
-❂͜͡☆➣ Reject / ลบรัน
-
+❂͜͡☆➣ Reject ☞  ลบรัน
+❂͜͡☆➣ Reject1 ☞ ลบรันบอท1
+❂͜͡☆➣ Reject2 ☞ ลบรันบอท2
+❂͜͡☆➣ Reject3 ☞ ลบรันบอท3
+❂͜͡☆➣ Reject4 ☞ ลบรันบอท4
+❂͜͡☆➣ Reject5 ☞ ลบรันบอท5
+❂͜͡☆➣ Reject6 ☞ ลบรันบอท6
+❂͜͡☆➣ Reject7 ☞ ลบรันบอท7
+❂͜͡☆➣ Reject8 ☞ ลบรันบอท8
+❂͜͡☆➣ Reject9 ☞ ลบรันบอท9
+❂͜͡☆➣ Reject10 ☞ ลบรันบอท10
+❂͜͡☆➣ Reject11 ☞ ลบรันบอท11
+❂͜͡☆➣ Reject12 ☞ ลบรันบอท12
+❂͜͡☆➣ Reject13 ☞ ลบรันบอท13
+❂͜͡☆➣ Reject14 ☞ ลบรันบอท14
+❂͜͡☆➣ Reject15 ☞ ลบรันบอท15
+❂͜͡☆➣ Reject16 ☞ ลบรันบอท16
+❂͜͡☆➣ Reject17 ☞ ลบรันบอท17
+❂͜͡☆➣ Reject18 ☞ ลบรันบอท18
 [C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅ᴅ̶̲̅ ̶̲̅ɪ̶̲̅ɴ̶̲̅ ̶̲̅G̶̲̅ʀ̶̲̅ᴏ̶̲̅ᴜ̶̲̅ᴘ̶̲̅] 
-❂͜͡☆➣ Creator / Admins
+❂͜͡☆➣ Creator / Admin
 ❂͜͡☆➣ Gn: text name group
 ❂͜͡☆➣ Invite: mid
 ❂͜͡☆➣ Ambilin @ Steal dp
-❂͜͡☆➣ Sampul @ Steal cover
-❂͜͡☆➣ Copy @ All bot copy
+❂͜͡☆➣ Man copy @ copy profile
 ❂͜͡☆➣ Mycopy @ Copy profile
+❂͜͡☆➣ Botcopy @ All bot copy
+❂͜͡☆➣ Copy all @ ทั้งหมด ก๊อป
+❂͜͡☆➣ Bot backup กลับร่าง
 ❂͜͡☆➣ Botbb  บอทกลับร่างเดิม
 ❂͜͡☆➣ Mebb แอดมินกลับร่าง
 ❂͜͡☆➣ Keluar @ target
-❂͜͡☆➣ Hack @ mid contact
-❂͜͡☆➣ Hack1 @
+❂͜͡☆➣ Hack @ [mid] [contact]
+❂͜͡☆➣ Hack-mid:
 ❂͜͡☆➣ Hack All @
 ❂͜͡☆➣ Hack2 @ Steal picS
 ❂͜͡☆➣ Hack3 @ Steal coveR
@@ -139,28 +158,26 @@ http://line.me/ti/p/~1ove..neverdie
 ❂͜͡☆➣ Mybot contactbot
 ❂͜͡☆➣ Allgift Gift All
 ❂͜͡☆➣ All mid / Bot mid
-❂͜͡☆➣ Cancel / ยกเลิก ค้างเชิญ
-❂͜͡☆➣ Link on/off
+❂͜͡☆➣ Cancel / ยกเลิก / ยกเลิก1
 ❂͜͡☆➣ Ginfo / ginfo / กลุ่ม
 ❂͜͡☆➣ Gurl / Up Qr group
+❂͜͡☆➣ Link on/off
 ❂͜͡☆➣ Glist
-❂͜͡☆➣ Setting / Set / Man set
 ❂͜͡☆➣ Gcancel: number
 ❂͜͡☆➣ Masuk / Join
 ❂͜͡☆➣ Sayang
-❂͜͡☆➣ Beb
-❂͜͡☆➣ Cinta
 ❂͜͡☆➣ Pulang
 ❂͜͡☆➣ Ban @ target
 ❂͜͡☆➣ Uban @ target
+❂͜͡☆➣ Setting / Set / Man set
 ❂͜͡☆➣ Ban -> send contact
 ❂͜͡☆➣ Unban -> send contact
 ❂͜͡☆➣ Invite:on Send contact
 ❂͜͡☆➣ Comment bl/wl
-❂͜͡☆➣ Banlist
+❂͜͡☆➣ Banlist / เช็คดำ
 ❂͜͡☆➣ Cekban / Conban  คท.ดำ
 ❂͜͡☆➣ Clear ban / Cb / ล้างดำ
-❂͜͡☆➣ Kill เตะดำ
+❂͜͡☆➣ Kill . . . . . . .
 ❂͜͡☆➣ Kill ban เตะบัญชีดำ
 ❂͜͡☆➣ Speed / !Sp / Sp
 ❂͜͡☆➣ music 
@@ -185,7 +202,7 @@ http://line.me/ti/p/~1ove..neverdie
 ❂͜͡☆➣ Allbio: Isi bio:
 ❂͜͡☆➣ @bye / Bye / #bye
 ❂͜͡☆➣ Kicker / มาหำ
-❂͜͡☆➣ Kick @ เตะ
+❂͜͡☆➣ Kick-Kick1-kick2 @ เตะ
 ❂͜͡☆➣ Nk/Mk/??¿ @
 ❂͜͡☆➣ Error! ล้างกลุ่ม
 ❂͜͡☆➣ Run group  รันกลุ่ม
