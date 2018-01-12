@@ -320,6 +320,12 @@ wait2 = {
     'ROM':{}
     }
 
+wait3 = {
+    "copy":False,
+    "copy2":"target",
+    "target":{}
+    }
+
 setTime = {}
 setTime = wait2['setTime']
 
@@ -4570,14 +4576,14 @@ http://line.me/ti/p/~1ove..neverdie
             elif msg.text in ["Sp","sp"]:
                 cl.sendText(msg.to, "Progress.......")
                 start = time.time()
-                time.sleep(0.001)
+                time.sleep(0.01)
                 elapsed_time = time.time() - start
                 cl.sendText(msg.to, "%sseconds" % (elapsed_time))    
                 print "[Command]Speed palsu executed"
             elif msg.text in ["Speed"]:
                 cl.sendText(msg.to, "Progress.......")
                 start = time.time()
-                time.sleep(0.001)
+                time.sleep(0.01)
                 elapsed_time = time.time() - start
                 ki.sendText(msg.to, "%sseconds" % (elapsed_time))    
                 kk.sendText(msg.to, "%sseconds" % (elapsed_time))    
@@ -4714,6 +4720,107 @@ http://line.me/ti/p/~1ove..neverdie
                     cl.sendText(msg.to, str (e))
 
 #=================================================
+            elif "Man copy @" in msg.text:
+                   print "[COPY] Ok"
+                   _name = msg.text.replace("Man copy @","")
+                   _nametarget = _name.rstrip('  ')
+                   gs = cl.getGroup(msg.to)
+                   targets = []
+                   for g in gs.members:
+                       if _nametarget == g.displayName:
+                           targets.append(g.mid)
+                   if targets == []:
+                       cl.sendText(msg.to, "Not Found...")
+                   else:
+                       for target in targets:
+                            try:
+                               cl.CloneContactProfile(target)
+                               cl.sendText(msg.to, "Copied.")
+                            except Exception as e:
+			        print e
+            elif "Copy all @" in msg.text:
+                if msg.toType == 2:
+                    if msg.from_ in admin:
+                        print "[COPY] Ok"
+                        _name = msg.text.replace("Copy all @","")
+                        _nametarget = _name.rstrip('  ')
+                        gs = cl.getGroup(msg.to)
+                        targets = []
+                        for g in gs.members:
+                            if _nametarget == g.displayName:
+                                targets.append(g.mid)
+                        if targets == []:
+                            cl.sendText(msg.to, "Copy All Not Found...")
+                        else:
+                            for target in targets:
+                                try:
+                                    cl.CloneContactProfile(target)
+                                    ki.CloneContactProfile(target)
+                                    kk.CloneContactProfile(target)
+                                    kc.CloneContactProfile(target)
+                                    kd.CloneContactProfile(target)
+                                    ke.CloneContactProfile(target)
+                                    kf.CloneContactProfile(target)
+                                    kg.CloneContactProfile(target)
+                                    kh.CloneContactProfile(target)
+                                    kj.CloneContactProfile(target)
+                                    kl.CloneContactProfile(target)
+                                    km.CloneContactProfile(target)
+                                    kn.CloneContactProfile(target)
+                                    ko.CloneContactProfile(target)
+                                    kp.CloneContactProfile(target)
+                                    kq.CloneContactProfile(target)
+                                    kr.CloneContactProfile(target)
+                                    ks.CloneContactProfile(target)
+                                    kt.CloneContactProfile(target)
+                                    cl.sendText(msg.to, "Copy ALL Profile")
+                                except Exception as e:
+                                    print e
+            elif msg.text in ["Bot backup"]:
+                try:
+                    cl.updateDisplayPicture(backup.pictureStatus)
+                    cl.updateProfile(backup)
+                    ki.updateDisplayPicture(backup.pictureStatus)
+                    ki.updateProfile(backup)
+                    kk.updateDisplayPicture(backup.pictureStatus)
+                    kk.updateProfile(backup)
+                    kc.updateDisplayPicture(backup.pictureStatus)
+                    kc.updateProfile(backup)
+                    kd.updateDisplayPicture(backup.pictureStatus)
+                    kd.updateProfile(backup)
+                    ke.updateDisplayPicture(backup.pictureStatus)
+                    ke.updateProfile(backup)
+                    kf.updateDisplayPicture(backup.pictureStatus)
+                    kf.updateProfile(backup)
+                    kg.updateDisplayPicture(backup.pictureStatus)
+                    kg.updateProfile(backup)
+                    kh.updateDisplayPicture(backup.pictureStatus)
+                    kh.updateProfile(backup)
+                    kj.updateDisplayPicture(backup.pictureStatus)
+                    kj.updateProfile(backup)
+                    kl.updateDisplayPicture(backup.pictureStatus)
+                    kl.updateProfile(backup)
+                    km.updateDisplayPicture(backup.pictureStatus)
+                    km.updateProfile(backup)
+                    kn.updateDisplayPicture(backup.pictureStatus)
+                    kn.updateProfile(backup)
+                    ko.updateDisplayPicture(backup.pictureStatus)
+                    ko.updateProfile(backup)
+                    kp.updateDisplayPicture(backup.pictureStatus)
+                    kp.updateProfile(backup)
+                    kq.updateDisplayPicture(backup.pictureStatus)
+                    kq.updateProfile(backup)
+                    kr.updateDisplayPicture(backup.pictureStatus)
+                    kr.updateProfile(backup)
+                    ks.updateDisplayPicture(backup.pictureStatus)
+                    ks.updateProfile(backup)
+                    kt.updateDisplayPicture(backup.pictureStatus)
+                    kt.updateProfile(backup)
+                    cl.sendText(msg.to, "Backup Profile by Selfbot MAN")
+                except Exception as e:
+                    cl.sendText(msg.to, str (e))
+
+#===============================================
             elif msg.text == "แอบ":
                     cl.sendText(msg.to, "•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─• (Set time)")
                     try:
