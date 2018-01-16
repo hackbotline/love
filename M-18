@@ -4538,6 +4538,14 @@ http://line.me/ti/p/~1ove..neverdie
                 else:
                     kh.sendText(msg.to,"拒绝了全部的邀请。")
             elif msg.text in ["ลบรันบอท","ลบรันบอท9"]:
+                gid = kj.getGroupIdsInvited()
+                for i in gid:
+                    kj.rejectGroupInvitation(i)
+                if wait["lang"] == "JP":
+                    kj.sendText(msg.to,"Bot All invitations is clean")
+                else:
+                    kj.sendText(msg.to,"拒绝了全部的邀请。")
+            elif msg.text in ["ลบรันบอท","ลบรันบอท10"]:
                 gid = kl.getGroupIdsInvited()
                 for i in gid:
                     kl.rejectGroupInvitation(i)
@@ -4545,78 +4553,70 @@ http://line.me/ti/p/~1ove..neverdie
                     kl.sendText(msg.to,"Bot All invitations is clean")
                 else:
                     kl.sendText(msg.to,"拒绝了全部的邀请。")
-            elif msg.text in ["ลบรันบอท","ลบรันบอท10"]:
-                gid = ki.getGroupIdsInvited()
-                for i in gid:
-                    ki.rejectGroupInvitation(i)
-                if wait["lang"] == "JP":
-                    ki.sendText(msg.to,"Bot All invitations is clean")
-                else:
-                    ki.sendText(msg.to,"拒绝了全部的邀请。")
             elif msg.text in ["ลบรันบอท","ลบรันบอท11"]:
-                gid = ki.getGroupIdsInvited()
+                gid = km.getGroupIdsInvited()
                 for i in gid:
-                    ki.rejectGroupInvitation(i)
+                    km.rejectGroupInvitation(i)
                 if wait["lang"] == "JP":
-                    ki.sendText(msg.to,"Bot All invitations is clean")
+                    km.sendText(msg.to,"Bot All invitations is clean")
                 else:
-                    ki.sendText(msg.to,"拒绝了全部的邀请。")
+                    km.sendText(msg.to,"拒绝了全部的邀请。")
             elif msg.text in ["ลบรันบอท","ลบรันบอท12"]:
-                gid = ki.getGroupIdsInvited()
+                gid = kn.getGroupIdsInvited()
                 for i in gid:
-                    ki.rejectGroupInvitation(i)
+                    kn.rejectGroupInvitation(i)
                 if wait["lang"] == "JP":
-                    ki.sendText(msg.to,"Bot All invitations is clean")
+                    kn.sendText(msg.to,"Bot All invitations is clean")
                 else:
-                    ki.sendText(msg.to,"拒绝了全部的邀请。")
+                    kn.sendText(msg.to,"拒绝了全部的邀请。")
             elif msg.text in ["ลบรันบอท","ลบรันบอท13"]:
-                gid = ki.getGroupIdsInvited()
+                gid = ko.getGroupIdsInvited()
                 for i in gid:
-                    ki.rejectGroupInvitation(i)
+                    ko.rejectGroupInvitation(i)
                 if wait["lang"] == "JP":
-                    ki.sendText(msg.to,"Bot All invitations is clean")
+                    ko.sendText(msg.to,"Bot All invitations is clean")
                 else:
-                    ki.sendText(msg.to,"拒绝了全部的邀请。")
+                    ko.sendText(msg.to,"拒绝了全部的邀请。")
             elif msg.text in ["ลบรันบอท","ลบรันบอท14"]:
-                gid = ki.getGroupIdsInvited()
+                gid = kp.getGroupIdsInvited()
                 for i in gid:
-                    ki.rejectGroupInvitation(i)
+                    kp.rejectGroupInvitation(i)
                 if wait["lang"] == "JP":
-                    ki.sendText(msg.to,"Bot All invitations is clean")
+                    kp.sendText(msg.to,"Bot All invitations is clean")
                 else:
-                    ki.sendText(msg.to,"拒绝了全部的邀请。")
+                    kp.sendText(msg.to,"拒绝了全部的邀请。")
             elif msg.text in ["ลบรันบอท","ลบรันบอท15"]:
-                gid = ki.getGroupIdsInvited()
+                gid = kq.getGroupIdsInvited()
                 for i in gid:
-                    ki.rejectGroupInvitation(i)
+                    kq.rejectGroupInvitation(i)
                 if wait["lang"] == "JP":
-                    ki.sendText(msg.to,"Bot All invitations is clean")
+                    kq.sendText(msg.to,"Bot All invitations is clean")
                 else:
-                    ki.sendText(msg.to,"拒绝了全部的邀请。")
+                    kq.sendText(msg.to,"拒绝了全部的邀请。")
             elif msg.text in ["ลบรันบอท","ลบรันบอท16"]:
-                gid = ki.getGroupIdsInvited()
+                gid = kr.getGroupIdsInvited()
                 for i in gid:
-                    ki.rejectGroupInvitation(i)
+                    kr.rejectGroupInvitation(i)
                 if wait["lang"] == "JP":
-                    ki.sendText(msg.to,"Bot All invitations is clean")
+                    kr.sendText(msg.to,"Bot All invitations is clean")
                 else:
-                    ki.sendText(msg.to,"拒绝了全部的邀请。")
+                    kr.sendText(msg.to,"拒绝了全部的邀请。")
             elif msg.text in ["ลบรันบอท","ลบรันบอท17"]:
-                gid = ki.getGroupIdsInvited()
+                gid = ks.getGroupIdsInvited()
                 for i in gid:
-                    ki.rejectGroupInvitation(i)
+                    ks.rejectGroupInvitation(i)
                 if wait["lang"] == "JP":
-                    ki.sendText(msg.to,"Bot All invitations is clean")
+                    ks.sendText(msg.to,"Bot All invitations is clean")
                 else:
-                    ki.sendText(msg.to,"拒绝了全部的邀请。")
+                    ks.sendText(msg.to,"拒绝了全部的邀请。")
             elif msg.text in ["ลบรันบอท","ลบรันบอท18"]:
-                gid = ki.getGroupIdsInvited()
+                gid = kt.getGroupIdsInvited()
                 for i in gid:
-                    ki.rejectGroupInvitation(i)
+                    kt.rejectGroupInvitation(i)
                 if wait["lang"] == "JP":
-                    ki.sendText(msg.to,"Bot All invitations is clean")
+                    kt.sendText(msg.to,"Bot All invitations is clean")
                 else:
-                    ki.sendText(msg.to,"拒绝了全部的邀请。")
+                    kt.sendText(msg.to,"拒绝了全部的邀请。")
             elif msg.text in ["Add:on","Auto add on","Auto add:on","Add on"]:
                 if wait["autoAdd"] == True:
                     if wait["lang"] == "JP":
@@ -5779,7 +5779,7 @@ http://line.me/ti/p/~1ove..neverdie
                        except:
                            kd.sendText(msg.to,"Error")
 
-            elif "Man@@" in msg.text:
+            elif "Man@tag" in msg.text:
                 group = cl.getGroup(msg.to)
                 k = len(group.members)//100
                 for j in xrange(k+1):
@@ -5889,7 +5889,7 @@ http://line.me/ti/p/~1ove..neverdie
                     for mi_d in wait["blacklist"]:
                         mc += "[✗] " + cl.getContact(mi_d).displayName + " \n"
                     cl.sendText(msg.to, mc + "")
-            elif msg.text in ["B con","Cekban","Conban"]:
+            elif msg.text in ["M ban","Cekban","Mid ban"]:
                 if msg.toType == 2:
                     group = cl.getGroup(msg.to)
                     gMembMids = [contact.mid for contact in group.members]
