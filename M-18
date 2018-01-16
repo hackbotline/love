@@ -119,24 +119,24 @@ http://line.me/ti/p/~1ove..neverdie
 ❂͜͡☆➣ Cbroadcast text
 ❂͜͡☆➣ Gbroadcast text
 ❂͜͡☆➣ Reject ☞  ลบรัน
-❂͜͡☆➣ ลบรันบอท ☞ ลบรันบอท1
-❂͜͡☆➣ ลบรันบอท ☞ ลบรันบอท2
-❂͜͡☆➣ ลบรันบอท ☞ ลบรันบอท3
-❂͜͡☆➣ ลบรันบอท ☞ ลบรันบอท4
-❂͜͡☆➣ ลบรันบอท ☞ ลบรันบอท5
-❂͜͡☆➣ ลบรันบอท ☞ ลบรันบอท6
-❂͜͡☆➣ ลบรันบอท ☞ ลบรันบอท7
-❂͜͡☆➣ ลบรันบอท ☞ ลบรันบอท8
-❂͜͡☆➣ ลบรันบอท ☞ ลบรันบอท9
-❂͜͡☆➣ ลบรันบอท ☞ ลบรันบอท10
-❂͜͡☆➣ ลบรันบอท ☞ ลบรันบอท11
-❂͜͡☆➣ ลบรันบอท ☞ ลบรันบอท12
-❂͜͡☆➣ ลบรันบอท ☞ ลบรันบอท13
-❂͜͡☆➣ ลบรันบอท ☞ ลบรันบอท14
-❂͜͡☆➣ ลบรันบอท ☞ ลบรันบอท15
-❂͜͡☆➣ ลบรันบอท ☞ ลบรันบอท16
-❂͜͡☆➣ ลบรันบอท ☞ ลบรันบอท17
-❂͜͡☆➣ ลบรันบอท ☞ ลบรันบอท18
+❂͜͡☆➣ Reject1 ☞ ลบรันบอท1
+❂͜͡☆➣ Reject2 ☞ ลบรันบอท2
+❂͜͡☆➣ Reject3 ☞ ลบรันบอท3
+❂͜͡☆➣ Reject4 ☞ ลบรันบอท4
+❂͜͡☆➣ Reject5 ☞ ลบรันบอท5
+❂͜͡☆➣ Reject6 ☞ ลบรันบอท6
+❂͜͡☆➣ Reject7 ☞ ลบรันบอท7
+❂͜͡☆➣ Reject8 ☞ ลบรันบอท8
+❂͜͡☆➣ Reject9 ☞ ลบรันบอท9
+❂͜͡☆➣ Reject10 ☞ ลบรันบอท10
+❂͜͡☆➣ Reject11 ☞ ลบรันบอท11
+❂͜͡☆➣ Reject12 ☞ ลบรันบอท12
+❂͜͡☆➣ Reject13 ☞ ลบรันบอท13
+❂͜͡☆➣ Reject14 ☞ ลบรันบอท14
+❂͜͡☆➣ Reject15 ☞ ลบรันบอท15
+❂͜͡☆➣ Reject16 ☞ ลบรันบอท16
+❂͜͡☆➣ Reject17 ☞ ลบรันบอท17
+❂͜͡☆➣ Reject18 ☞ ลบรันบอท18
 ❂͜͡☆➣ ลบแชท  ☜☞  ล้างแชท
 ❂͜͡☆➣ ลบแชทบอท ☜☞ ล้างแชทบอท
 [C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅ᴅ̶̲̅ ̶̲̅ɪ̶̲̅ɴ̶̲̅ ̶̲̅G̶̲̅ʀ̶̲̅ᴏ̶̲̅ᴜ̶̲̅ᴘ̶̲̅] 
@@ -4473,7 +4473,7 @@ http://line.me/ti/p/~1ove..neverdie
                     cl.sendText(msg.to,"Semua Spam Undangan Telah Di Tolak")
                 else:
                     cl.sendText(msg.to,"拒绝了全部的邀请。")
-            elif msg.text in ["ลบรันบอท","ลบรันบอท1"]:
+            elif msg.text in ["Reject1","ลบรันบอท1"]:
                 gid = ki.getGroupIdsInvited()
                 for i in gid:
                     ki.rejectGroupInvitation(i)
@@ -4481,7 +4481,7 @@ http://line.me/ti/p/~1ove..neverdie
                     ki.sendText(msg.to,"Bot All invitations is clean")
                 else:
                     ki.sendText(msg.to,"拒绝了全部的邀请。")
-            elif msg.text in ["ลบรันบอท","ลบรันบอท2"]:
+            elif msg.text in ["Reject2","ลบรันบอท2"]:
                 gid = kk.getGroupIdsInvited()
                 for i in gid:
                     kk.rejectGroupInvitation(i)
@@ -4489,7 +4489,7 @@ http://line.me/ti/p/~1ove..neverdie
                     kk.sendText(msg.to,"Bot All invitations is clean")
                 else:
                     kk.sendText(msg.to,"拒绝了全部的邀请。")
-            elif msg.text in ["ลบรันบอท","ลบรันบอท3"]:
+            elif msg.text in ["Reject3","ลบรันบอท3"]:
                 gid = kc.getGroupIdsInvited()
                 for i in gid:
                     kc.rejectGroupInvitation(i)
@@ -4497,7 +4497,7 @@ http://line.me/ti/p/~1ove..neverdie
                     kc.sendText(msg.to,"Bot All invitations is clean")
                 else:
                     kc.sendText(msg.to,"拒绝了全部的邀请。")
-            elif msg.text in ["ลบรันบอท","ลบรันบอท4"]:
+            elif msg.text in ["Reject4","ลบรันบอท4"]:
                 gid = kd.getGroupIdsInvited()
                 for i in gid:
                     kd.rejectGroupInvitation(i)
@@ -4505,7 +4505,7 @@ http://line.me/ti/p/~1ove..neverdie
                     kd.sendText(msg.to,"Bot All invitations is clean")
                 else:
                     kd.sendText(msg.to,"拒绝了全部的邀请。")
-            elif msg.text in ["ลบรันบอท","ลบรันบอท5"]:
+            elif msg.text in ["Reject5","ลบรันบอท5"]:
                 gid = ke.getGroupIdsInvited()
                 for i in gid:
                     ke.rejectGroupInvitation(i)
@@ -4513,7 +4513,7 @@ http://line.me/ti/p/~1ove..neverdie
                     ke.sendText(msg.to,"Bot All invitations is clean")
                 else:
                     ke.sendText(msg.to,"拒绝了全部的邀请。")
-            elif msg.text in ["ลบรันบอท","ลบรันบอท6"]:
+            elif msg.text in ["Reject6","ลบรันบอท6"]:
                 gid = kf.getGroupIdsInvited()
                 for i in gid:
                     kf.rejectGroupInvitation(i)
@@ -4521,7 +4521,7 @@ http://line.me/ti/p/~1ove..neverdie
                     kf.sendText(msg.to,"Bot All invitations is clean")
                 else:
                     kf.sendText(msg.to,"拒绝了全部的邀请。")
-            elif msg.text in ["ลบรันบอท","ลบรันบอท7"]:
+            elif msg.text in ["Reject7","ลบรันบอท7"]:
                 gid = kg.getGroupIdsInvited()
                 for i in gid:
                     kg.rejectGroupInvitation(i)
@@ -4529,7 +4529,7 @@ http://line.me/ti/p/~1ove..neverdie
                     kg.sendText(msg.to,"Bot All invitations is clean")
                 else:
                     kg.sendText(msg.to,"拒绝了全部的邀请。")
-            elif msg.text in ["ลบรันบอท","ลบรันบอท8"]:
+            elif msg.text in ["Reject8","ลบรันบอท8"]:
                 gid = kh.getGroupIdsInvited()
                 for i in gid:
                     kh.rejectGroupInvitation(i)
@@ -4537,7 +4537,7 @@ http://line.me/ti/p/~1ove..neverdie
                     kh.sendText(msg.to,"Bot All invitations is clean")
                 else:
                     kh.sendText(msg.to,"拒绝了全部的邀请。")
-            elif msg.text in ["ลบรันบอท","ลบรันบอท9"]:
+            elif msg.text in ["Reject9","ลบรันบอท9"]:
                 gid = kj.getGroupIdsInvited()
                 for i in gid:
                     kj.rejectGroupInvitation(i)
@@ -4545,7 +4545,7 @@ http://line.me/ti/p/~1ove..neverdie
                     kj.sendText(msg.to,"Bot All invitations is clean")
                 else:
                     kj.sendText(msg.to,"拒绝了全部的邀请。")
-            elif msg.text in ["ลบรันบอท","ลบรันบอท10"]:
+            elif msg.text in ["Reject10","ลบรันบอท10"]:
                 gid = kl.getGroupIdsInvited()
                 for i in gid:
                     kl.rejectGroupInvitation(i)
@@ -4553,7 +4553,7 @@ http://line.me/ti/p/~1ove..neverdie
                     kl.sendText(msg.to,"Bot All invitations is clean")
                 else:
                     kl.sendText(msg.to,"拒绝了全部的邀请。")
-            elif msg.text in ["ลบรันบอท","ลบรันบอท11"]:
+            elif msg.text in ["Reject11","ลบรันบอท11"]:
                 gid = km.getGroupIdsInvited()
                 for i in gid:
                     km.rejectGroupInvitation(i)
@@ -4561,7 +4561,7 @@ http://line.me/ti/p/~1ove..neverdie
                     km.sendText(msg.to,"Bot All invitations is clean")
                 else:
                     km.sendText(msg.to,"拒绝了全部的邀请。")
-            elif msg.text in ["ลบรันบอท","ลบรันบอท12"]:
+            elif msg.text in ["Reject12","ลบรันบอท12"]:
                 gid = kn.getGroupIdsInvited()
                 for i in gid:
                     kn.rejectGroupInvitation(i)
@@ -4569,7 +4569,7 @@ http://line.me/ti/p/~1ove..neverdie
                     kn.sendText(msg.to,"Bot All invitations is clean")
                 else:
                     kn.sendText(msg.to,"拒绝了全部的邀请。")
-            elif msg.text in ["ลบรันบอท","ลบรันบอท13"]:
+            elif msg.text in ["Reject13","ลบรันบอท13"]:
                 gid = ko.getGroupIdsInvited()
                 for i in gid:
                     ko.rejectGroupInvitation(i)
@@ -4577,7 +4577,7 @@ http://line.me/ti/p/~1ove..neverdie
                     ko.sendText(msg.to,"Bot All invitations is clean")
                 else:
                     ko.sendText(msg.to,"拒绝了全部的邀请。")
-            elif msg.text in ["ลบรันบอท","ลบรันบอท14"]:
+            elif msg.text in ["Reject14","ลบรันบอท14"]:
                 gid = kp.getGroupIdsInvited()
                 for i in gid:
                     kp.rejectGroupInvitation(i)
@@ -4585,7 +4585,7 @@ http://line.me/ti/p/~1ove..neverdie
                     kp.sendText(msg.to,"Bot All invitations is clean")
                 else:
                     kp.sendText(msg.to,"拒绝了全部的邀请。")
-            elif msg.text in ["ลบรันบอท","ลบรันบอท15"]:
+            elif msg.text in ["Reject15","ลบรันบอท15"]:
                 gid = kq.getGroupIdsInvited()
                 for i in gid:
                     kq.rejectGroupInvitation(i)
@@ -4593,7 +4593,7 @@ http://line.me/ti/p/~1ove..neverdie
                     kq.sendText(msg.to,"Bot All invitations is clean")
                 else:
                     kq.sendText(msg.to,"拒绝了全部的邀请。")
-            elif msg.text in ["ลบรันบอท","ลบรันบอท16"]:
+            elif msg.text in ["Reject16","ลบรันบอท16"]:
                 gid = kr.getGroupIdsInvited()
                 for i in gid:
                     kr.rejectGroupInvitation(i)
@@ -4601,7 +4601,7 @@ http://line.me/ti/p/~1ove..neverdie
                     kr.sendText(msg.to,"Bot All invitations is clean")
                 else:
                     kr.sendText(msg.to,"拒绝了全部的邀请。")
-            elif msg.text in ["ลบรันบอท","ลบรันบอท17"]:
+            elif msg.text in ["Reject17","ลบรันบอท17"]:
                 gid = ks.getGroupIdsInvited()
                 for i in gid:
                     ks.rejectGroupInvitation(i)
@@ -4609,7 +4609,7 @@ http://line.me/ti/p/~1ove..neverdie
                     ks.sendText(msg.to,"Bot All invitations is clean")
                 else:
                     ks.sendText(msg.to,"拒绝了全部的邀请。")
-            elif msg.text in ["ลบรันบอท","ลบรันบอท18"]:
+            elif msg.text in ["Reject18","ลบรันบอท18"]:
                 gid = kt.getGroupIdsInvited()
                 for i in gid:
                     kt.rejectGroupInvitation(i)
@@ -5756,7 +5756,7 @@ http://line.me/ti/p/~1ove..neverdie
                                     gs.preventJoinByTicket(gs)
                         	    cl.updateGroup(gs)
 #-----------------------------------------------------------
-            elif ("Kick2 " in msg.text):
+            elif ("M1 kick " in msg.text):
                    targets = []
                    key = eval(msg.contentMetadata["MENTION"])
                    key["MENTIONEES"][0]["M"]
@@ -5764,10 +5764,32 @@ http://line.me/ti/p/~1ove..neverdie
                        targets.append(x["M"])
                    for target in targets:
                        try:
-                           ke.kickoutFromGroup(msg.to,[target])
+                           ki.kickoutFromGroup(msg.to,[target])
                        except:
-                           ke.sendText(msg.to,"Error")
-            elif ("Kick3 " in msg.text):
+                           ki.sendText(msg.to,"Error")
+            elif ("M2 kick " in msg.text):
+                   targets = []
+                   key = eval(msg.contentMetadata["MENTION"])
+                   key["MENTIONEES"][0]["M"]
+                   for x in key["MENTIONEES"]:
+                       targets.append(x["M"])
+                   for target in targets:
+                       try:
+                           kk.kickoutFromGroup(msg.to,[target])
+                       except:
+                           kk.sendText(msg.to,"Error")
+            elif ("M3 kick " in msg.text):
+                   targets = []
+                   key = eval(msg.contentMetadata["MENTION"])
+                   key["MENTIONEES"][0]["M"]
+                   for x in key["MENTIONEES"]:
+                       targets.append(x["M"])
+                   for target in targets:
+                       try:
+                           kc.kickoutFromGroup(msg.to,[target])
+                       except:
+                           kc.sendText(msg.to,"Error")
+            elif ("M4 kick " in msg.text):
                    targets = []
                    key = eval(msg.contentMetadata["MENTION"])
                    key["MENTIONEES"][0]["M"]
@@ -5778,7 +5800,61 @@ http://line.me/ti/p/~1ove..neverdie
                            kd.kickoutFromGroup(msg.to,[target])
                        except:
                            kd.sendText(msg.to,"Error")
-
+            elif ("M5 kick " in msg.text):
+                   targets = []
+                   key = eval(msg.contentMetadata["MENTION"])
+                   key["MENTIONEES"][0]["M"]
+                   for x in key["MENTIONEES"]:
+                       targets.append(x["M"])
+                   for target in targets:
+                       try:
+                           ke.kickoutFromGroup(msg.to,[target])
+                       except:
+                           ke.sendText(msg.to,"Error")
+            elif ("M6 kick " in msg.text):
+                   targets = []
+                   key = eval(msg.contentMetadata["MENTION"])
+                   key["MENTIONEES"][0]["M"]
+                   for x in key["MENTIONEES"]:
+                       targets.append(x["M"])
+                   for target in targets:
+                       try:
+                           kf.kickoutFromGroup(msg.to,[target])
+                       except:
+                           kf.sendText(msg.to,"Error")
+            elif ("M7 kick " in msg.text):
+                   targets = []
+                   key = eval(msg.contentMetadata["MENTION"])
+                   key["MENTIONEES"][0]["M"]
+                   for x in key["MENTIONEES"]:
+                       targets.append(x["M"])
+                   for target in targets:
+                       try:
+                           kg.kickoutFromGroup(msg.to,[target])
+                       except:
+                           kg.sendText(msg.to,"Error")
+            elif ("M8 kick " in msg.text):
+                   targets = []
+                   key = eval(msg.contentMetadata["MENTION"])
+                   key["MENTIONEES"][0]["M"]
+                   for x in key["MENTIONEES"]:
+                       targets.append(x["M"])
+                   for target in targets:
+                       try:
+                           kh.kickoutFromGroup(msg.to,[target])
+                       except:
+                           kh.sendText(msg.to,"Error")
+            elif ("M9 kick " in msg.text):
+                   targets = []
+                   key = eval(msg.contentMetadata["MENTION"])
+                   key["MENTIONEES"][0]["M"]
+                   for x in key["MENTIONEES"]:
+                       targets.append(x["M"])
+                   for target in targets:
+                       try:
+                           kj.kickoutFromGroup(msg.to,[target])
+                       except:
+                           kj.sendText(msg.to,"Error")
             elif "Man@tag" in msg.text:
                 group = cl.getGroup(msg.to)
                 k = len(group.members)//100
@@ -5794,7 +5870,6 @@ http://line.me/ti/p/~1ove..neverdie
                     msg.text = txt
                     msg.contentMetadata = {u'MENTION':json.dumps({"MENTIONEES":d})}
                     cl.sendMessage(msg)
-
 
             elif ("Mk " in msg.text):
                    targets = []
