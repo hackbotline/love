@@ -66,7 +66,7 @@ kp.login(token="En2KwrGlPGwsYTqRXdX4.h3P92CCPLrvuZl+/sjgTHa.Ar9v/y0Kc2ZhNN6TWn7n
 kp.loginResult()
 
 kq = LINETCR.LINE()
-kq.login(token="EnJNB5Njj2tqJrVXwqJ6.UsifYkGV9oHJUs/icfEbvG.DbEYdNAcItCw5nPDwDZKWBmmzzc87MWm8+GJREO75tE=")
+kq.login(token="Eno27jAlc0uNdudX3gC6.UsifYkGV9oHJUs/icfEbvG.p66AjXG+3i8GGJmr7jxb5NlMDH3b+VQO7zZ3O32ieDU=")
 kq.loginResult()
 
 kr = LINETCR.LINE()
@@ -74,7 +74,7 @@ kr.login(token="EnzJOz2xjZmTsYtABTrd.xwjlUdZUsHbPU14aiaJY3q.H2Hg4alvCo/wl92DNc+5
 kr.loginResult()
 
 ks = LINETCR.LINE()
-ks.login(token="Enr9EzzAHvRl4foGDJ0e.ct061DsLt4s5sWUBOf6RtG.xQ5dMtBE5j0GMJsPvNBlq+iZZiYq1yPaIHXChbSxAXI=")
+ks.login(token="EnDLyDASZ2lJh9rOVmD5.oow/2Bc5FNRjl8LktAW2Pq.sAYWUCA3++oWmCw/eZjnmRHHglbzRVghpEEZbQT6EcM=")
 ks.loginResult()
 
 kt = LINETCR.LINE()
