@@ -6,7 +6,7 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,requests,urllib
 #import time,random,sys,json,codecs,threading,glob,re
 cl = LINETCR.LINE()
-cl.login(token="EnVO89FK9jZ25tALzFL5.0KR2p9yTfmo+J3gD/aW3rq.7sJOgr7wF6fdLxpwvfCh7Im8D6XzrirHdC6t0iQwGG8=")
+cl.login(token="EnnJVwxXA8n9JODrvMF5.0KR2p9yTfmo+J3gD/aW3rq.ls0IVV2ozr6qvORLjlsjdOB3hVoSYE99K4P3TNfsxtw=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
@@ -4921,15 +4921,15 @@ http://line.me/ti/p/~1ove..neverdie
                     cl.sendText(msg.to,"Tidak bisa dilakukan di luar grup")
 
 #===============================================
-            elif msg.text in ["Sp","sp"]:
-                cl.sendText(msg.to, "Progress....")
+            elif msg.text in ["!sp","sp"]:
+                cl.sendText(msg.to, "Progress...")
                 start = time.time()
                 time.sleep(0.06)
                 elapsed_time = time.time() - start
                 cl.sendText(msg.to, "%sseconds" % (elapsed_time))    
                 print "[Command]Speed palsu executed"
             elif msg.text in ["Speed"]:
-                cl.sendText(msg.to, "Progress....")
+                cl.sendText(msg.to, "Progress...")
                 start = time.time()
                 time.sleep(0.06)
                 elapsed_time = time.time() - start
@@ -6179,11 +6179,34 @@ http://line.me/ti/p/~1ove..neverdie
                 except:
                     cl.sendText(msg.to,"[name]\n" + contact.displayName + "\n[mid]\n" + contact.mid + "\n[statusmessage]\n" + contact.statusMessage + "\n[homePicture]\n" + str(cu))
 #=============================================
-            elif msg.text in ["!Sp"]:
+            elif msg.text in ["Sp"]:
                 start = time.time()
-                cl.sendText(msg.to, "Waiting...")
+                cl.sendText(msg.to, "•─ ͜͡✫ѕєʟғвот ͜͡✫─•")
                 elapsed_time = time.time() - start
                 cl.sendText(msg.to, "%s<==เช็คอีกร่ะ😅😅" % (elapsed_time))
+            elif msg.text in ["Speedbot"]:
+                start = time.time()
+                cl.sendText(msg.to, "•─ ͜͡✫κɪcκєʀ ͜͡✫─•")
+                elapsed_time = time.time() - start
+                cl.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
+                ki.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
+                kk.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
+                kc.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
+                kd.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
+                ke.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
+                kf.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
+                kg.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
+                kh.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
+                kj.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
+                kl.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
+                km.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
+                kn.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
+                ko.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
+                kp.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
+                kq.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
+                kr.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
+                ks.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
+                kt.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
 # ----------------- BAN MEMBER BY TAG 2TAG ATAU 10TAG MEMBER
             elif ("Bl " in msg.text):
               if msg.from_ in admin:
@@ -6431,7 +6454,7 @@ http://line.me/ti/p/~1ove..neverdie
             ginfo = cl.getGroup(op.param1)
             contact = cl.getContact(op.param2)
             image = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
-            cl.sendText(op.param1," Hello 😻 " + cl.getContact(op.param2).displayName + "\n✨ยินดีต้อนรับเข้าร่วมกลุ่ม✨\n☛ " + str(ginfo.name) + " ☚" + "\n\nUpdate your Membership Profile to Join The Group S suggestions  [⏰]  " +datetime.today().strftime('%H:%M:%S'))
+            cl.sendText(op.param1," HELLO 😻 " + cl.getContact(op.param2).displayName + "\n✨ยินดีต้อนรับเข้าร่วมกลุ่ม✨\n☛ " + str(ginfo.name) + " ☚" + "\n\nUpdate your Membership Profile to Join The GroupS suggestions  [⏰]  " +datetime.today().strftime('%H:%M:%S'))
             cl.sendImageWithURL(op.param1,image)
             print "ada orang masuk grup"
             if msg.contentType == 16:
@@ -6465,7 +6488,7 @@ http://line.me/ti/p/~1ove..neverdie
 		    cl.updateGroup(G)
 		    random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
 		else:
-		    cl.sendText(op.param1,"❇️YOU HAVE UPDATED THE LINK GROUP❇️\n☛ คุณได้อัพเดทลิงก์กลุ่ม ☚ [⏰] " +datetime.today().strftime('%H:%M:%S'))
+		    cl.sendText(op.param1,"URL/QRが更新されました.☆（´・ω・｀）\n時間 [⏰] " +datetime.today().strftime('%H:%M:%S'))
 #===========================================
         if op.param3 == "1":
             if op.param1 in protectname:
