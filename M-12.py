@@ -9,55 +9,55 @@ import re,string,os
 import os.path,sys,urllib,shutil,subprocess,pickle
 
 cl = LINETCR.LINE()
-cl.login(qr=True)
+cl.login(token="ใส่โทเค็น")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(qr=True)
+ki.login(token="ใส่โทเค็น")
 ki.loginResult()
 
 kk = LINETCR.LINE()
-kk.login(qr=True)
+kk.login(token="ใส่โทเค็น")
 kk.loginResult()
 
 ks = LINETCR.LINE()
-ks.login(qr=True)
+ks.login(token="ใส่โทเค็น")
 ks.loginResult()
 
 kc = LINETCR.LINE()
-kc.login(qr=True)
+kc.login(token="ใส่โทเค็น")
 kc.loginResult()
 
 ka = LINETCR.LINE()
-ka.login(qr=True)
+ka.login(token="ใส่โทเค็น")
 ka.loginResult()
 
 km = LINETCR.LINE()
-km.login(qr=True)
+km.login(token="ใส่โทเค็น")
 km.loginResult()
 
 kn = LINETCR.LINE()
-kn.login(qr=True)
+kn.login(token="ใส่โทเค็น")
 kn.loginResult()
 
 ko = LINETCR.LINE()
-ko.login(qr=True)
+ko.login(token="ใส่โทเค็น")
 ko.loginResult()
 
 kp = LINETCR.LINE()
-kp.login(qr=True)
+kp.login(token="ใส่โทเค็น")
 kp.loginResult()
 
 kq = LINETCR.LINE()
-kq.login(qr=True)
+kq.login(token="ใส่โทเค็น")
 kq.loginResult()
 
 kr = LINETCR.LINE()
-kr.login(qr=True)
+kr.login(token="ใส่โทเค็น")
 kr.loginResult()
 
 kj = LINETCR.LINE()
-kj.login(qr=True)
+kj.login(token="ใส่โทเค็น")
 kj.loginResult()
 
 cl
@@ -73,7 +73,7 @@ helpMessage =""" Mr. Bots…⛿
 ║║║║║║║║
 ║║║║╦║║║
 ╚╩╩╩╩╩╩╝ ᵀᴴᴬᴵᴸᴬᴺᴰ Creator
-📧http://line.me/R/ti/p/%40ypr5531u
+📧http://line.me/R/ti/p/%40uvh1233u
 ╔════════════════════
 ║  [C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅ᴅ̶̲̅] ☛ Iɴ ᴛʜᴇ ɢʀᴏᴜᴘ
 ╠════════════════════
@@ -151,7 +151,7 @@ helpMessage2 ="""Mr. Bots…⛿
  ║║║║║║║║
  ║║║║╦║║║
  ╚╩╩╩╩╩╩╝ ᵀᴴᴬᴵᴸᴬᴺᴰ Creator
-📧http://line.me/R/ti/p/%40ypr5531u
+📧http://line.me/R/ti/p/%40uvh1233u
 ╔═══════════════════════
 ╠❂➣[PROTECT: ON/OFF]ระบบป้องกัน
 ╠❂➣[BLOCK URL: ON/OFF]ล็อกลิงก์
@@ -272,10 +272,10 @@ http://line.me/ti/p/~1ove..neverdie
 🆔 sirichan999 🆔 1ove..neverdie
 
 📧ติดต่อเพิ่มเติม↲  📲 0639375811
-http://line.me/ti/p/%40ypr5531u
+http://line.me/ti/p/%40uvh1233u
 """,
     "lang":"JP",
-    "comment":"☛ Auto Like ☚ ᵀᴴᴬᴵᴸᴬᴺᴰ⛿️Protect-BOT\n📧http://line.me/R/ti/p/%40ypr5531u ", 
+    "comment":"☛ Auto Like ☚ ᵀᴴᴬᴵᴸᴬᴺᴰ⛿️Protect-BOT\n📧http://line.me/R/ti/p/%40uvh1233u ", 
     "likeOn":True,
     "commentOn":True,
     "commentBlack":{},
