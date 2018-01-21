@@ -6,79 +6,79 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,requests,urllib
 #import time,random,sys,json,codecs,threading,glob,re
 cl = LINETCR.LINE()
-cl.login(token="EnnJVwxXA8n9JODrvMF5.0KR2p9yTfmo+J3gD/aW3rq.ls0IVV2ozr6qvORLjlsjdOB3hVoSYE99K4P3TNfsxtw=")
+cl.login(token="EnHAuYrU5U0qYxunakk5.0KR2p9yTfmo+J3gD/aW3rq.xaSNGMyf7uy4Xt0wd/WXUZPI1ZItO1sKlsyhDhzHsYI=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="En1niLhJ6Q1xmXbhQGZc.HoR1JnsB+4qeb6VJ+e21Na.YtiAcKskFQ76877rgqIQxeF/lQv3a0FhgUHmX1vMoqk=")
+ki.login(token="EnymvmomAkQhM4wHwOyc.HoR1JnsB+4qeb6VJ+e21Na.KeIKCqpscb0G9fwC948UtnITfPU4jv70kqZ3wKrOgNc=")
 ki.loginResult()
 
 kk = LINETCR.LINE()
-kk.login(token="EniSakst6a8257VcXbe1.0yBG21qsxOytdiizPZNOOq.JlVNzkuNXDOHG4rb+UGj6WjLDtJ43ZvV2usCte/kFKY=")
+kk.login(token="Enj3iOQpLSOnEMx1BP31.0yBG21qsxOytdiizPZNOOq.sVSeBJMaqjzK9NqNBHImxPpNMmV3lgrpNsb/AiG4rk8=")
 kk.loginResult()
 
 kc = LINETCR.LINE()
-kc.login(token="EnMYKLtAnYUEYH5fuLUa.TvetDTQOiFfoCjE8lx6qQG.avNTzEQ3Q2j8HgBzupma3evR/hsaHkdsTWF+p/sm2Jo=")
+kc.login(token="EnICR4P4CWGqpItdzdua.TvetDTQOiFfoCjE8lx6qQG.Y9f6QQYUYavA3vnb7JxLGkJD/eV+305KwB08P+s4KlI=")
 kc.loginResult()
 
 kd = LINETCR.LINE()
-kd.login(token="EnSDTOj5yoCm51OEAmu3.k4Za5/UEgS3xASuSVtbn4W.tU4Xs/IdzSc0hSEGiaAMvHg0bZJ3to3AoK82D5AbL1w=")
+kd.login(token="EnkUIAvSBBU6Q9cHSAj3.k4Za5/UEgS3xASuSVtbn4W.dYGmqwYzICVA/BNwGLbdKLBEN2/XfeM6yJ0ARHKqHsY=")
 kd.loginResult()
 
 ke = LINETCR.LINE()
-ke.login(token="EngzBa3UsPCY15W391na.s/dq/M0GLZkiMLYg3XHlcG.1YuGhYjbT5h6n/Ah5I+c3qiQLREWgGpvq34E/tElDhI=")
+ke.login(token="EnTjhibF1spKBNNomF2a.s/dq/M0GLZkiMLYg3XHlcG.R+4Nh9JSSI5fOE8nYIrWeuJxKvrswq6YphGYVWQopd8=")
 ke.loginResult()
 
 kf = LINETCR.LINE()
-kf.login(token="EnKoyglJ9czSRvqLI4Y8.fKk7jKzQ5mzh1YnPidc0ga.geEVnKpgki6bS1vAtUA80jU7385bE0CXZ8Lecyskvss=")
+kf.login(token="EnrFHAJgg6iFzJderTZ8.fKk7jKzQ5mzh1YnPidc0ga.YGeTPFUmgF0ISo7I8FqcF6JcM2sxXVdqA74uXMm2/JU=")
 kf.loginResult()
 
 kg = LINETCR.LINE()
-kg.login(token="EnjjldTdtw90MHXZja42.GEJaLf18HIrlmEJ3dKxw4G.HQngGBiARg824aAAceT5se/hpDb8zrI/FtL2qKX/FDc=")
+kg.login(token="En9ejP11HV0hnhHnQut2.GEJaLf18HIrlmEJ3dKxw4G.aiGCcjcsw1xn3Azc4sid66mQq0FKeYjorDkN5OHMIas=")
 kg.loginResult()
 
 kh = LINETCR.LINE()
-kh.login(token="EnYXQMokK7oFR87rVVWb.R+TwP1t4enhkFeLLHqn0sW.A2qWv+eQyczoyi2gpEdizFp7bAvfTij0DQPXMDnMsis=")
+kh.login(token="EnMENBKAWt7UqLARCsCb.R+TwP1t4enhkFeLLHqn0sW.92hqqqS9yCeegmv/HJC0W7Fr5SzpGXq34+BA8Ezhxp8=")
 kh.loginResult()
 
 kj = LINETCR.LINE()
-kj.login(token="EnTKTnZyyCj0ohpXqqh8.PHu9Jj2QfTEzOzCw7q5q/a.EcLJcYV+s8J9C+t7buGo4oWK4jG+1XXnysfDPOYC808=")
+kj.login(token="EnJzUEi2CiYCA5JUhe58.PHu9Jj2QfTEzOzCw7q5q/a.r4Bk3fx2ShYNjavvwxHAxw3UgNjAJL7EbAs7Vk2H5fM=")
 kj.loginResult()
 
 kl = LINETCR.LINE()
-kl.login(token="EnDK9oblGyVxk9W9rOL9.SToq+Adh7am3maMPFEVM/q.DeXZbr9ZD0AzG9XaZj+s9vtKnudtdl+CZHrqlJI7pJM=")
+kl.login(token="Ene1dz7qAaxlxc0rQqC9.SToq+Adh7am3maMPFEVM/q.lU2ob4iadzVwjAABGMzjm63wnO0BNxcO3XgQK3T3DBo=")
 kl.loginResult()
 
 km = LINETCR.LINE()
-km.login(token="EntgXquzDRP9pJpXZDS6.AEksypRHUUmnTL3iWKWpfG.BwWfzSCJeSjambuszXEC74+T8q7tfNlouj4OO8Pa2BQ=")
+km.login(token="En5L413yy6O1To83Fad6.AEksypRHUUmnTL3iWKWpfG.sDXhygbZpiWO5rfGirMvOMTlO59drfNrUEqtXGo/gG4=")
 km.loginResult()
 
 kn = LINETCR.LINE()
-kn.login(token="En2yQ1EQk9hsXMlCQus8.1vrheGCJ1zMYVolwEXtRca.QLv7WOGH/apBsfoETRrfsMQ0WtagfxaUJpKliIky6Zw=")
+kn.login(token="EnI7ndn1IyE6Mor0Gz38.1vrheGCJ1zMYVolwEXtRca.OoKEbzMRtX1jym7eloKBr5vs9Rjtv4E2P2iRf72DveE=")
 kn.loginResult()
 
 ko = LINETCR.LINE()
-ko.login(token="EntkuhJZmnLTowCsfYt5.tPDsUdJZXvKPQOUc44Txrq.ckFssNQRmr8sQvm+MOkMFdE1ZUYIrSXGm+9XOgU+jnU=")
+ko.login(token="En3Rqhbm2Dqz0izafh95.tPDsUdJZXvKPQOUc44Txrq.Rkeib1QVR9osoca860oVbESTecbWzL28PCfrLbpDRWQ=")
 ko.loginResult()
 
 kp = LINETCR.LINE()
-kp.login(token="En2KwrGlPGwsYTqRXdX4.h3P92CCPLrvuZl+/sjgTHa.Ar9v/y0Kc2ZhNN6TWn7nLuBlPHXtA+bSd0xviSk/1yk=")
+kp.login(token="EnGMJ2EHVHvKIENhlrP4.h3P92CCPLrvuZl+/sjgTHa.izoSQefLOCY0OL9NX3I3voYHfPBgrII7DTULMOeCzxE=")
 kp.loginResult()
 
 kq = LINETCR.LINE()
-kq.login(token="Eno27jAlc0uNdudX3gC6.UsifYkGV9oHJUs/icfEbvG.p66AjXG+3i8GGJmr7jxb5NlMDH3b+VQO7zZ3O32ieDU=")
+kq.login(token="EnGVWmRqeldl8HPLIjIf.c/m8IinMdlKmygHk0drlJW.yhLL6mpDqbVepYsIMZZQLwc2zONBHWGK/F6Xg8m1FoI=")
 kq.loginResult()
 
 kr = LINETCR.LINE()
-kr.login(token="EnzJOz2xjZmTsYtABTrd.xwjlUdZUsHbPU14aiaJY3q.H2Hg4alvCo/wl92DNc+5N2Q6HrelPStRnfdmA20cV54=")
+kr.login(token="En92waRBFuuL1TyNbSV8.ZljcgNhbjqeW/41Qp39iga.oINAaHhX4QNCEjonx191qd5O89f4W3CqhL6P8/kehU4=")
 kr.loginResult()
 
 ks = LINETCR.LINE()
-ks.login(token="EnDLyDASZ2lJh9rOVmD5.oow/2Bc5FNRjl8LktAW2Pq.sAYWUCA3++oWmCw/eZjnmRHHglbzRVghpEEZbQT6EcM=")
+ks.login(token="EnnVLeQA8GbC9YOQEqZ8.AFMsOTwU/bnGPo2Fn+vVAa.HhUWejXEOlQGpWBBnYFmKSkjBFwvjQ9bW3L0IAeOwlc=")
 ks.loginResult()
 
 kt = LINETCR.LINE()
-kt.login(token="EnldiwO8HSZl2viZXQE6.NSHJdVAVNV3B+BOz/wobHG.OVHcbkFYf7NThwLsuZHOOehixeDleHq+VpuRmv7IJ2g=")
+kt.login(token="EnK8KAbb0Q1zIZIZoHZf.5c3SW9UdZcMFeDtPu+MRNW.yUjPynZHCrryUwwNVKCpkcwwB99VdqZromZLeGcuU6k=")
 kt.loginResult()
 
 cl
@@ -224,7 +224,13 @@ https://line.me/R/ti/p/%40uvh1233u
 ──────┅═ই۝ई═┅──────   
      ☆ Ķ͈̤̱͎̱̤̞̭͂̐͒́̀͗͞Ị̵̻̝̘͍͛̏̃͊̉͠ T̩͖͎̹̫͈̿̆̏́̑́S̤̲̯̤̹̲̲̘̏̋̈́̿͒ͅŲ̶̼̲̺̣̬̔̿͐̾̾͘Ṇ̶̨̛̲̭̝̲̝̪̎̾̈́͘͢͜͞É͎̱̺̜̐̀̿͘̕̕͢  B̴̡̛͈̖̺͖̙̝̩̞̐̂̀͂̏̚͟͠O̸̡̩̣̲̣̜̊̑̾̾͊̃͘͜ͅT Ç̵͔̟̫̰̮̺̟̥̂̋̂͋͐͛͑̔̚̚O̷̧̺̠̰̳̿́͆̕̕͠ͅ N̶͖̜̻̰͍̮̼̒́̐̑͒́̕ͅŢ̢̯̱͕̠͙̤̙̄̂͗̊̈́̕R̶̛̙̩̱̗̯͌̈͆̆Ơ̴̡͈̖̺͖̙̝̩̞̐̂̀͂̏̚͟͠L̸̡̩̣̲̣̜̊̑̾̾͊̃͘͜ͅ  ☆
 """
-helpMessage2 ="""╔═════════════════════╗
+helpMessage2 ="""Mr. Bots…⛿
+╔══╦═╦═╗
+║║║║║║║║    ✯✯❇ᵀᴴᴬᴵᴸᴬᴺᴰ❇✯✯
+║║║║╦║║║  ❇͜͡C͜͡r͜͡e͜͡a͜͡t͜͡o͜͡r✯͜͡$͜͡ë͜͡I͜͡F͜͡-͜͡฿͜͡o͜͡Ŧ❇
+╚╩╩╩╩╩╩╝️ နับთิஏთั้ଏบਹທ SirichanV⒑
+📧https://line.me/R/ti/p/%40uvh1233u
+╔═════════════════════╗
 ║•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•
 ╠═════════════════════╝
 ║[Massage add: "text"]:
@@ -3861,14 +3867,36 @@ http://line.me/ti/p/~security_botline
                 msg.contentMetadata = {"mid":mmid}
                 cl.sendMessage(msg)
 
-            elif "Man key" in msg.text:
-                cl.sendText(msg.to,""" 􀜁􀇔􏿿􀜁􀇔􏿿[•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•] 􀜁􀇔􏿿􀜁􀇔􏿿 \n\n 􀜁􀇔􏿿 key Only Kicker 􀜁􀇔􏿿 \n\n􀜁􀇔􏿿[M1-M18 in]\n􀜁􀇔􏿿[1Aditname:]\n􀜁􀇔􏿿[Bcancel]\n􀜁􀇔􏿿[Nk @]\n􀜁􀇔􏿿[Ban @]\n􀜁􀇔􏿿[kill]\n􀜁􀇔􏿿[BotChat]\n􀜁􀇔􏿿[Respons]\n􀜁􀇔􏿿[M1 Gift]\n􀜁􀇔􏿿[M1 bye]\n\nMan1-Man18
+            elif "Bot help" in msg.text:
+                cl.sendText(msg.to,"""•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•
+            ❇️ Key Only BOT ❇️
+[Bot?]
+[Bot mid]
+[Bcancel]
+[BotChat]
+[Respons]
+[Man1 - Man18]
+[ลบรันบอท1-18]
+[1Aditname: ]
+[M1 - M18] in
+[M1 - M18] bye
+[M1 - M18] gift
+[M1 - M18] rename: 
+[Ban @]+[Kill-Kill ban]
+[Conban] + [คท. ดำ]
+[Cb] Clear blacklist
+[Nk @] + [??¿ @]
+[M1 kick - M9 kick @]                                                        
+  <😏_/
+    \
+     \
+   _/🍆\_
+www.หรรมใหญ่โว้ย🔞.com （´・ω・｀）                                            
 ──────┅═ই۝ई═┅──────
 နับთิஏთั้ଏบਹທ  Sirichan V⒑
 สนใจติดต่อที่  ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ
 http://line.me/ti/p/~1ove..neverdie
-──────┅═ই۝ई═┅──────
-""")
+──────┅═ই۝ई═┅──────""")
 
             elif msg.text.lower() == 'cancel':
                 if msg.toType == 2:
@@ -4070,14 +4098,14 @@ http://line.me/ti/p/~1ove..neverdie
                     profile_B = ki.getProfile()
                     profile_B.displayName = string
                     ki.updateProfile(profile_B)
-                    ki.sendText(msg.to,"Name " + string + " Done Bosqu")
+                    ki.sendText(msg.to,"Name " + string + " Updated Name")
             elif "M2 rename: " in msg.text:
                 string = msg.text.replace("M2 rename: ","")
                 if len(string.decode('utf-8')) <= 20:
                     profile_B = kk.getProfile()
                     profile_B.displayName = string
                     kk.updateProfile(profile_B)
-                    kk.sendText(msg.to,"Name " + string + " Done Bosqu")
+                    kk.sendText(msg.to,"Name " + string + " Updated Name")
             elif "M3 rename: " in msg.text:
                 string = msg.text.replace("M3 rename: ","")
                 if len(string.decode('utf-8')) <= 20:
