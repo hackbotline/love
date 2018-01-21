@@ -4983,8 +4983,8 @@ http://line.me/ti/p/~1ove..neverdie
                 kt.sendText(msg.to, "%sseconds" % (elapsed_time))    
                 print "[Command]Speed palsu executed"
 
-            elif msg.text in ["Set protect"]:
-                cl.sendText(msg.to, "Conmend  [PROTECT]\n❂͜͡☆➣ Protect on\n❂͜͡☆➣ Qr on\n❂͜͡☆➣ Namelock on\n❂͜͡☆➣ Namelock off\n❂͜͡☆➣ Blockinvite on\n❂͜͡☆➣ Blockinvite off\n❂͜͡☆➣ Backup on\n❂͜͡☆➣ Backup off\n\n[By.•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•]")
+            elif msg.text in ["Protect help"]:
+                cl.sendText(msg.to, "Conmend  [PROTECT] \n❂͜͡☆➣ Protect on/off \n❂͜͡☆➣ Protect:on\off \n❂͜͡☆➣ Qr on/off \n❂͜͡☆➣ Qr:on/off \n❂͜͡☆➣ Blockinvite:on/off \n❂͜͡☆➣ Block url on/off \n❂͜͡☆➣ Block url:on/off \n❂͜͡☆➣ Backup on/off\n\nBy.•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•")
 
 #========================================
             elif msg.text in ["Botbb"]:
@@ -5064,7 +5064,7 @@ http://line.me/ti/p/~1ove..neverdie
                                     kr.cloneContactProfile(target)
                                     ks.cloneContactProfile(target)
                                     kt.cloneContactProfile(target)
-                                    cl.sendText(msg.to, "Sukses Copy Profile")
+                                    cl.sendText(msg.to, "Copy Profile")
                                 except Exception as e:
                                     print e
 #===============================================
@@ -5085,7 +5085,7 @@ http://line.me/ti/p/~1ove..neverdie
                             for target in targets:
                                 try:
                                     cl.cloneContactProfile(target)
-                                    cl.sendText(msg.to, "Sukses Copy Profile")
+                                    cl.sendText(msg.to, "Copy Profile")
                                 except Exception as e:
                                     print e
 #=================================================
@@ -5151,7 +5151,7 @@ http://line.me/ti/p/~1ove..neverdie
                                     kr.CloneContactProfile(target)
                                     ks.CloneContactProfile(target)
                                     kt.CloneContactProfile(target)
-                                    cl.sendText(msg.to, "Copy ALL Profile")
+                                    cl.sendText(msg.to, "Copy ALL Profile BY selfbot-man")
                                 except Exception as e:
                                     print e
             elif msg.text in ["Bot backup"]:
@@ -5262,12 +5262,17 @@ http://line.me/ti/p/~1ove..neverdie
                                 kl.sendText(msg.to,"L")
                                 km.sendText(msg.to,"O")
 #================================================
-#========================================
+#================================================
             elif msg.text.lower() == 'wc':
                 ginfo = cl.getGroup(msg.to)
                 cl.sendText(msg.to,"Selamat Datang Di Grup " + str(ginfo.name))
                 cl.sendText(msg.to,"Owner Grup " + str(ginfo.name) + " :\n" + ginfo.creator.displayName )
-#=======================================
+#================================================
+            elif msg.text.lower() == 'hi':
+                ginfo = cl.getGroup(msg.to)
+                cl.sendText(msg.to,"Hello, Admin and group members " + str(ginfo.name))
+                cl.sendText(msg.to,"Owner Grup " + str(ginfo.name) + " :\n" + ginfo.creator.displayName )
+#================================================
 #-------------------Fungsi spam start--------------------------
             elif "Spam change: " in msg.text:
                 wait["spam"] = msg.text.replace("Spam change: ","")
@@ -5582,9 +5587,9 @@ http://line.me/ti/p/~1ove..neverdie
 					ki.sendText(msg.to,"He declined all invitations")
             elif msg.text in ["Gu bye","@bye","Bye"]:
                 if msg.toType == 2:
-                   X = cl.getGroup(msg.to)
+                   ginfo = cl.getGroup(msg.to)
                 try:
-                     ki.sendText(msg.to,"โดนไล่อีกแล้ว..ไปก็ได้😢\n👋😭 Bye~bye.. ["  +  str(ginfo.name)  + "]")
+                     ki.sendText(msg.to,"โดนไล่อีกแล้ว..ไปก็ได้😢\n👋😭 Bye~bye.. "  +  str(ginfo.name)  + "")
                      ki.leaveGroup(msg.to)
                      kk.leaveGroup(msg.to)
                      kc.leaveGroup(msg.to)
@@ -5602,7 +5607,6 @@ http://line.me/ti/p/~1ove..neverdie
                      kq.leaveGroup(msg.to)
                      kr.leaveGroup(msg.to)
                      ks.leaveGroup(msg.to)
-                     kt.sendText(msg.to,"[By] •─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•")
                      kt.leaveGroup(msg.to)
                 except:
                      pass
@@ -6129,9 +6133,8 @@ http://line.me/ti/p/~1ove..neverdie
                         kt.kickoutFromGroup(msg.to,[jj])
                     cl.sendText(msg.to,"Blacklist user")
 
-
 #=================================
-            
+
             elif ("Add mimic " in msg.text):
                 if msg.from_ in admin:
                     targets = []
@@ -6149,7 +6152,7 @@ http://line.me/ti/p/~1ove..neverdie
                             cl.sendText(msg.to,"Fail !")
                             break
 #=================================Del mimic==========================
-            
+
             elif ("Del mimic " in msg.text):
                 if msg.from_ in admin:
                     targets = []
@@ -6167,7 +6170,7 @@ http://line.me/ti/p/~1ove..neverdie
                             cl.sendText(msg.to,"Fail !")
                             break
 #=================================List mimic status==========================
-            
+
             elif msg.text in ["Mimic list"]:
                 if msg.from_ in admin:
                     if mimic["target"] == {}:
@@ -6183,7 +6186,7 @@ http://line.me/ti/p/~1ove..neverdie
                             lst += "\n=•" + cl.getContact(a).displayName + " | " + stat
                         cl.sendText(msg.to,lst + "\nTotal: {" + total + "}")
 #=================================Mimic status==========================
-            
+
             elif "Mimic " in msg.text:
                 if msg.from_ in admin:
                     cmd = msg.text.replace("Mimic ","")
@@ -6199,8 +6202,8 @@ http://line.me/ti/p/~1ove..neverdie
                             cl.sendText(msg.to,"Mimic mode off")
                         else:
                             cl.sendText(msg.to,"Sudah off kak")
-
 #=============================================
+
             elif "Hack4" in msg.text:
                 key = eval(msg.contentMetadata["MENTION"])
                 key1 = key["MENTIONEES"][0]["M"]
@@ -6213,32 +6216,32 @@ http://line.me/ti/p/~1ove..neverdie
 #=============================================
             elif msg.text in ["Sp"]:
                 start = time.time()
-                cl.sendText(msg.to, "•─ ͜͡✫ѕєʟғвот ͜͡✫─•")
+                cl.sendText(msg.to, "•─ ͜͡✯͜͡S͜͡p͜͡e͜͡e͜͡e͜͡d✯͜͡ѕ͜͡є͜͡ʟ͜͡ғ͜͡в͜͡о͜͡т͜͡✯─•")
                 elapsed_time = time.time() - start
-                cl.sendText(msg.to, "%s<==เช็คอีกร่ะ😅😅" % (elapsed_time))
+                cl.sendText(msg.to, "•─ ͜͡✯ %s  ͜͡✯─•" % (elapsed_time))
             elif msg.text in ["Speedbot"]:
                 start = time.time()
-                cl.sendText(msg.to, "•─ ͜͡✫вот-κɪcκєʀ ͜͡✫─•")
+                cl.sendText(msg.to, "•─ ͜͡✯͜͡S͜͡p͜͡e͜͡e͜͡e͜͡d͜͡ ͜͜͡͡в͜͡о͜͡т͜͡ ͜͡κ͜͡ɪ͜͡c͜͡κ͜͡є͜͡ʀ͜͡✯─•")
                 elapsed_time = time.time() - start
-                cl.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
-                ki.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
-                kk.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
-                kc.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
-                kd.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
-                ke.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
-                kf.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
-                kg.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
-                kh.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
-                kj.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
-                kl.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
-                km.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
-                kn.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
-                ko.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
-                kp.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
-                kq.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
-                kr.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
-                ks.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
-                kt.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
+                cl.sendText(msg.to, "•─ ͜͡✯ %s  ͜͡✯─•" % (elapsed_time))
+                ki.sendText(msg.to, "•─ ͜͡✯ %s  ͜͡✯─•" % (elapsed_time))
+                kk.sendText(msg.to, "•─ ͜͡✯ %s  ͜͡✯─•" % (elapsed_time))
+                kc.sendText(msg.to, "•─ ͜͡✯ %s  ͜͡✯─•" % (elapsed_time))
+                kd.sendText(msg.to, "•─ ͜͡✯ %s  ͜͡✯─•" % (elapsed_time))
+                ke.sendText(msg.to, "•─ ͜͡✯ %s  ͜͡✯─•" % (elapsed_time))
+                kf.sendText(msg.to, "•─ ͜͡✯ %s  ͜͡✯─•" % (elapsed_time))
+                kg.sendText(msg.to, "•─ ͜͡✯ %s  ͜͡✯─•" % (elapsed_time))
+                kh.sendText(msg.to, "•─ ͜͡✯ %s  ͜͡✯─•" % (elapsed_time))
+                kj.sendText(msg.to, "•─ ͜͡✯ %s  ͜͡✯─•" % (elapsed_time))
+                kl.sendText(msg.to, "•─ ͜͡✯ %s  ͜͡✯─•" % (elapsed_time))
+                km.sendText(msg.to, "•─ ͜͡✯ %s  ͜͡✯─•" % (elapsed_time))
+                kn.sendText(msg.to, "•─ ͜͡✯ %s  ͜͡✯─•" % (elapsed_time))
+                ko.sendText(msg.to, "•─ ͜͡✯ %s  ͜͡✯─•" % (elapsed_time))
+                kp.sendText(msg.to, "•─ ͜͡✯ %s  ͜͡✯─•" % (elapsed_time))
+                kq.sendText(msg.to, "•─ ͜͡✯ %s  ͜͡✯─•" % (elapsed_time))
+                kr.sendText(msg.to, "•─ ͜͡✯ %s  ͜͡✯─•" % (elapsed_time))
+                ks.sendText(msg.to, "•─ ͜͡✯ %s  ͜͡✯─•" % (elapsed_time))
+                kt.sendText(msg.to, "•─ ͜͡✯ %s  ͜͡✯─•" % (elapsed_time))
 # ----------------- BAN MEMBER BY TAG 2TAG ATAU 10TAG MEMBER
             elif ("Bl " in msg.text):
               if msg.from_ in admin:
