@@ -5582,6 +5582,7 @@ http://line.me/ti/p/~1ove..neverdie
                 if msg.toType == 2:
                    X = cl.getGroup(msg.to)
                 try:
+                     ki.sendText(msg.to,"โดนไล่อีกแล้ว..ไปก็ได้😢\n👋😭 Bye~bye.. ["  +  str(ginfo.name)  + "]")
                      ki.leaveGroup(msg.to)
                      kk.leaveGroup(msg.to)
                      kc.leaveGroup(msg.to)
@@ -5599,6 +5600,7 @@ http://line.me/ti/p/~1ove..neverdie
                      kq.leaveGroup(msg.to)
                      kr.leaveGroup(msg.to)
                      ks.leaveGroup(msg.to)
+                     kt.sendText(msg.to,"[By] •─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•")
                      kt.leaveGroup(msg.to)
                 except:
                      pass
@@ -6214,27 +6216,27 @@ http://line.me/ti/p/~1ove..neverdie
                 cl.sendText(msg.to, "%s<==เช็คอีกร่ะ😅😅" % (elapsed_time))
             elif msg.text in ["Speedbot"]:
                 start = time.time()
-                cl.sendText(msg.to, "•─ ͜͡✫κɪcκєʀ ͜͡✫─•")
+                cl.sendText(msg.to, "•─ ͜͡✫вот-κɪcκєʀ ͜͡✫─•")
                 elapsed_time = time.time() - start
-                cl.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
-                ki.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
-                kk.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
-                kc.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
-                kd.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
-                ke.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
-                kf.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
-                kg.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
-                kh.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
-                kj.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
-                kl.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
-                km.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
-                kn.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
-                ko.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
-                kp.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
-                kq.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
-                kr.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
-                ks.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
-                kt.sendText(msg.to, "%s<=Speeed" % (elapsed_time))
+                cl.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
+                ki.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
+                kk.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
+                kc.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
+                kd.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
+                ke.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
+                kf.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
+                kg.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
+                kh.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
+                kj.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
+                kl.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
+                km.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
+                kn.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
+                ko.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
+                kp.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
+                kq.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
+                kr.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
+                ks.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
+                kt.sendText(msg.to, "Speeed\n•─ ͜͡✫%s ͜͡✫─•" % (elapsed_time))
 # ----------------- BAN MEMBER BY TAG 2TAG ATAU 10TAG MEMBER
             elif ("Bl " in msg.text):
               if msg.from_ in admin:
