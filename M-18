@@ -97,6 +97,7 @@ http://line.me/ti/p/~1ove..neverdie
 ❂͜͡☆➣ Gc / ข้อมูลผู้สร้างกลุ่ม
 ❂͜͡☆➣ Me / Contact ME
 ❂͜͡☆➣ You @ Contact YOU
+❂͜͡☆➣ Link xxx
 ❂͜͡☆➣ My bot
 ❂͜͡☆➣ Bot gift
 ❂͜͡☆➣ Id / Uid
@@ -109,6 +110,7 @@ http://line.me/ti/p/~1ove..neverdie
 ❂͜͡☆➣ Cc: Clock Name
 ❂͜͡☆➣ Mc: Contact
 ❂͜͡☆➣ Tl: [text]
+❂͜͡☆➣ Hi  ทักทาย
 ❂͜͡☆➣ Auto join: on/off
 ❂͜͡☆➣ Auto add: on/off
 ❂͜͡☆➣ Auto leave: on/off
@@ -3919,10 +3921,7 @@ http://line.me/ti/p/~security_botline
 [Cb] Clear blacklist
 [Nk @] + [??¿ @]
 [M1 kick - M9 kick @]                                                        
-  <😏_/
-    \
-     \
-   _/🍆\_
+
 www.หรรมใหญ่โว้ย🔞.com （´・ω・｀）                                            
 ──────┅═ই۝ई═┅──────
 နับთิஏთั้ଏบਹທ  Sirichan V⒑
@@ -5301,7 +5300,7 @@ http://line.me/ti/p/~1ove..neverdie
             elif msg.text.lower() == 'hi':
                 ginfo = cl.getGroup(msg.to)
                 cl.sendText(msg.to,"Hello, Admin and group members " + str(ginfo.name))
-                cl.sendText(msg.to,"Owner Grup " + str(ginfo.name) + " :\n" + ginfo.creator.displayName )
+                cl.sendText(msg.to,"สวัสดีกลุ่ม" + str(ginfo.name) + "\nสอบถามเรื่องบอท ทักได้ เพจใหม่! : มีครบทุกฟังชั่น\n•บอทป้องกัน\n•บอทบิน\n•บอทแท๊ก\n•บอทกันรัน และ ล้างรัน\n✯✯❇Thailand✯Creator❇✯✯\n•─ ͜͡✫ѕєʟғвот﴾ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅﴿κɪcκєʀ ͜͡✫─•\nhttps://line.me/R/ti/p/%40uvh1233u "+ ginfo.creator.displayName )
 #================================================
 #-------------------Fungsi spam start--------------------------
             elif "Spam change: " in msg.text:
@@ -6533,7 +6532,7 @@ http://line.me/ti/p/~1ove..neverdie
 		    wait ["blacklist"][op.param2] = True
 		    cl.cancelGroupInvitation(op.param1,[op.param3])
 		else:
-		    cl.sendText(op.param1,"❇️INVITE MEMBER TO JOIN THE TIME GROUP❇️ [⏰] " +datetime.today().strftime('%H:%M:%S')) 
+		    cl.sendText(op.param1,"グループにメンバーを招待する（´・ω・｀）\n☆時間 🕘 " +datetime.today().strftime('%H:%M:%S'))
 	    if op.param2 not in Bots:
 		if op.param2 in Bots:
 		    pass
@@ -6541,7 +6540,7 @@ http://line.me/ti/p/~1ove..neverdie
 		    wait ["blacklist"][op.param2] = True
 		    cl.cancelGroupInvitation(op.param1,[op.param3])
 		else:
-		    cl.sendText(op.param1,"❇️ มีการเชิญสมาชิกเข้าร่วมกลุ่ม ❇️ [⏰] " +datetime.today().strftime('%H:%M:%S'))
+		    cl.sendText(op.param1,"「Auto Messages」\nแจ้งเตือน📛มีการเชิญสมาชิกเข้าร่วมกลุ่ม\n\n「เวลา」 🕘 " +datetime.today().strftime('%H:%M:%S'))
 	if op.type == 11:
 	    if op.param2 not in Bots:
 		if op.param2 in Bots:
