@@ -6,7 +6,7 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,requests,urllib
 #import time,random,sys,json,codecs,threading,glob,re
 cl = LINETCR.LINE()
-cl.login(token="EnHAuYrU5U0qYxunakk5.0KR2p9yTfmo+J3gD/aW3rq.xaSNGMyf7uy4Xt0wd/WXUZPI1ZItO1sKlsyhDhzHsYI=")
+cl.login(token="EnM8zG5KvBiTRn26MPI5.0KR2p9yTfmo+J3gD/aW3rq.QUat32D32+iXID7KzxOLXPPsQrb3r4q5DAvaDkZWKXQ=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
@@ -3663,7 +3663,37 @@ http://line.me/ti/p/~security_botline
 📧https://line.me/R/ti/p/%40uvh1233u
 ──────┅═ই۝ई═┅──────
 """)
-
+#-------------------------------------------------
+            elif msg.text == "Link xxx":
+                    cl.sendText(msg.to,"http://nekopoi.host")
+                    cl.sendText(msg.to,"http://sexvideobokep.com")
+                    cl.sendText(msg.to,"http://memek.com")
+                    cl.sendText(msg.to,"http://pornktube.com")
+                    cl.sendText(msg.to,"http://faketaxi.com")
+                    cl.sendText(msg.to,"http://videojorok.com")
+                    cl.sendText(msg.to,"http://watchmygf.mobi")
+                    cl.sendText(msg.to,"http://xnxx.com")
+                    cl.sendText(msg.to,"http://pornhd.com")
+                    cl.sendText(msg.to,"http://xvideos.com")
+                    cl.sendText(msg.to,"http://vidz7.com")
+                    cl.sendText(msg.to,"http://m.xhamster.com")
+                    cl.sendText(msg.to,"http://xxmovies.pro")
+                    cl.sendText(msg.to,"http://youporn.com")
+                    cl.sendText(msg.to,"http://pornhub.com")
+                    cl.sendText(msg.to,"http://anyporn.com")
+                    cl.sendText(msg.to,"http://hdsexdino.com")
+                    cl.sendText(msg.to,"http://rubyourdick.com")
+                    cl.sendText(msg.to,"http://anybunny.mobi")
+                    cl.sendText(msg.to,"http://cliphunter.com")
+                    cl.sendText(msg.to,"http://sexloving.net")
+                    cl.sendText(msg.to,"http://free.goshow.tv")
+                    cl.sendText(msg.to,"http://eporner.com")
+                    cl.sendText(msg.to,"http://Pornhd.josex.net")
+                    cl.sendText(msg.to,"http://m.hqporner.com")
+                    cl.sendText(msg.to,"http://m.spankbang.com")
+                    cl.sendText(msg.to,"http://m.4tube.com")
+                    cl.sendText(msg.to,"http://brazzers.com")
+#--------------------------------------------------
 #==================================================
             elif msg.text in ["ยกเลิก"]:
                 if msg.toType == 2:
@@ -4772,31 +4802,31 @@ http://line.me/ti/p/~1ove..neverdie
                 profile = kj.getProfile()
                 text = profile.displayName + "🇹🇭"
                 kj.sendText(msg.to, text)
-                profile = kn.getProfile()
-                text = profile.displayName + "🇹🇭"
-                kn.sendText(msg.to, text)
-                profile = ko.getProfile()
-                text = profile.displayName + "🇹🇭"
-                ko.sendText(msg.to, text)
-                profile = kp.getProfile()
-                text = profile.displayName + "🇹🇭"
-                kp.sendText(msg.to, text)
-                profile = kq.getProfile()
-                text = profile.displayName + "🇹🇭"
-                kq.sendText(msg.to, text)
-                profile = kr.getProfile()
-                text = profile.displayName + "🇹🇭"
-                kr.sendText(msg.to, text)
-                profile = ks.getProfile()
-                text = profile.displayName + "🇹🇭"
-                ks.sendText(msg.to, text)
-                profile = kt.getProfile()
-                text = profile.displayName + "🇹🇭"
-                kt.sendText(msg.to, text)
                 profile = kl.getProfile()
                 text = profile.displayName + "🇹🇭"
-                kl.sendText(msg.to, text)
+                kn.sendText(msg.to, text)
                 profile = km.getProfile()
+                text = profile.displayName + "🇹🇭"
+                ko.sendText(msg.to, text)
+                profile = kn.getProfile()
+                text = profile.displayName + "🇹🇭"
+                kp.sendText(msg.to, text)
+                profile = ko.getProfile()
+                text = profile.displayName + "🇹🇭"
+                kq.sendText(msg.to, text)
+                profile = kp.getProfile()
+                text = profile.displayName + "🇹🇭"
+                kr.sendText(msg.to, text)
+                profile = kq.getProfile()
+                text = profile.displayName + "🇹🇭"
+                ks.sendText(msg.to, text)
+                profile = kr.getProfile()
+                text = profile.displayName + "🇹🇭"
+                kt.sendText(msg.to, text)
+                profile = ks.getProfile()
+                text = profile.displayName + "🇹🇭"
+                kl.sendText(msg.to, text)
+                profile = kt.getProfile()
                 text = profile.displayName + "🇹🇭"
                 km.sendText(msg.to, text)
             elif "Ambil QR: " in msg.text:
