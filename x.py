@@ -5,9 +5,9 @@ from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
 import time,random,sys,json,codecs,threading,glob
 
-cl = LOG_OUTL.INE()
-cl.login(self.authToken)
-cl.loginResult()
+client = LineClient()
+#client = LineClient(authToken='AUTH TOKEN')
+client.log("Auth Token : " + str(client.authToken))
 
 print u"login success"
 reload(sys)
