@@ -6,7 +6,7 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob
 
 cl = LOG_OUTL.INE()
-cl.login(qr=True)
+cl.login(self.authToken)
 cl.loginResult()
 
 print u"login success"
