@@ -6,79 +6,79 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,requests,urllib
 #import time,random,sys,json,codecs,threading,glob,re
 cl = LINETCR.LINE()
-cl.login(token="EnM8zG5KvBiTRn26MPI5.0KR2p9yTfmo+J3gD/aW3rq.QUat32D32+iXID7KzxOLXPPsQrb3r4q5DAvaDkZWKXQ=")
+cl.login(token="EoQf3WrupTSur0D52ee5.0KR2p9yTfmo+J3gD/aW3rq.Vf3K8NzBwZLndIkK1+80pwj6Omr5lb5HLPEV6bsQ87U=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="EnymvmomAkQhM4wHwOyc.HoR1JnsB+4qeb6VJ+e21Na.KeIKCqpscb0G9fwC948UtnITfPU4jv70kqZ3wKrOgNc=")
+ki.login(token="EoaEkbcrKOZFzpLJkuzc.HoR1JnsB+4qeb6VJ+e21Na.Q13P4kUwtIkXjn9pqL4tJJ9ExxfE/i0Z25ziXhNBrXw=")
 ki.loginResult()
 
 kk = LINETCR.LINE()
-kk.login(token="Enj3iOQpLSOnEMx1BP31.0yBG21qsxOytdiizPZNOOq.sVSeBJMaqjzK9NqNBHImxPpNMmV3lgrpNsb/AiG4rk8=")
+kk.login(token="Eoj3iOQpLSOnEMx1BP31.0yBG21qsxOytdiizPZNOOq.sVSeBJMaqjzK9NqNBHImxPpNMmV3lgrpNsb/AiG4rk8=")
 kk.loginResult()
 
 kc = LINETCR.LINE()
-kc.login(token="EnICR4P4CWGqpItdzdua.TvetDTQOiFfoCjE8lx6qQG.Y9f6QQYUYavA3vnb7JxLGkJD/eV+305KwB08P+s4KlI=")
+kc.login(token="EoICR4P4CWGqpItdzdua.TvetDTQOiFfoCjE8lx6qQG.Y9f6QQYUYavA3vnb7JxLGkJD/eV+305KwB08P+s4KlI=")
 kc.loginResult()
 
 kd = LINETCR.LINE()
-kd.login(token="EnkUIAvSBBU6Q9cHSAj3.k4Za5/UEgS3xASuSVtbn4W.dYGmqwYzICVA/BNwGLbdKLBEN2/XfeM6yJ0ARHKqHsY=")
+kd.login(token="EokUIAvSBBU6Q9cHSAj3.k4Za5/UEgS3xASuSVtbn4W.dYGmqwYzICVA/BNwGLbdKLBEN2/XfeM6yJ0ARHKqHsY=")
 kd.loginResult()
 
 ke = LINETCR.LINE()
-ke.login(token="EnTjhibF1spKBNNomF2a.s/dq/M0GLZkiMLYg3XHlcG.R+4Nh9JSSI5fOE8nYIrWeuJxKvrswq6YphGYVWQopd8=")
+ke.login(token="EoTjhibF1spKBNNomF2a.s/dq/M0GLZkiMLYg3XHlcG.R+4Nh9JSSI5fOE8nYIrWeuJxKvrswq6YphGYVWQopd8=")
 ke.loginResult()
 
 kf = LINETCR.LINE()
-kf.login(token="EnrFHAJgg6iFzJderTZ8.fKk7jKzQ5mzh1YnPidc0ga.YGeTPFUmgF0ISo7I8FqcF6JcM2sxXVdqA74uXMm2/JU=")
+kf.login(token="EorFHAJgg6iFzJderTZ8.fKk7jKzQ5mzh1YnPidc0ga.YGeTPFUmgF0ISo7I8FqcF6JcM2sxXVdqA74uXMm2/JU=")
 kf.loginResult()
 
 kg = LINETCR.LINE()
-kg.login(token="En9ejP11HV0hnhHnQut2.GEJaLf18HIrlmEJ3dKxw4G.aiGCcjcsw1xn3Azc4sid66mQq0FKeYjorDkN5OHMIas=")
+kg.login(token="Eo9ejP11HV0hnhHnQut2.GEJaLf18HIrlmEJ3dKxw4G.aiGCcjcsw1xn3Azc4sid66mQq0FKeYjorDkN5OHMIas=")
 kg.loginResult()
 
 kh = LINETCR.LINE()
-kh.login(token="EnMENBKAWt7UqLARCsCb.R+TwP1t4enhkFeLLHqn0sW.92hqqqS9yCeegmv/HJC0W7Fr5SzpGXq34+BA8Ezhxp8=")
+kh.login(token="EoMENBKAWt7UqLARCsCb.R+TwP1t4enhkFeLLHqn0sW.92hqqqS9yCeegmv/HJC0W7Fr5SzpGXq34+BA8Ezhxp8=")
 kh.loginResult()
 
 kj = LINETCR.LINE()
-kj.login(token="EnJzUEi2CiYCA5JUhe58.PHu9Jj2QfTEzOzCw7q5q/a.r4Bk3fx2ShYNjavvwxHAxw3UgNjAJL7EbAs7Vk2H5fM=")
+kj.login(token="EoH3AxhOo8e5WdhxdKC8.PHu9Jj2QfTEzOzCw7q5q/a.cEy5GB36QS55U5d5+wh0eppCV/tLO7Zs9eGqSWNpDqg=")
 kj.loginResult()
 
 kl = LINETCR.LINE()
-kl.login(token="Ene1dz7qAaxlxc0rQqC9.SToq+Adh7am3maMPFEVM/q.lU2ob4iadzVwjAABGMzjm63wnO0BNxcO3XgQK3T3DBo=")
+kl.login(token="Eoe1dz7qAaxlxc0rQqC9.SToq+Adh7am3maMPFEVM/q.lU2ob4iadzVwjAABGMzjm63wnO0BNxcO3XgQK3T3DBo=")
 kl.loginResult()
 
 km = LINETCR.LINE()
-km.login(token="En5L413yy6O1To83Fad6.AEksypRHUUmnTL3iWKWpfG.sDXhygbZpiWO5rfGirMvOMTlO59drfNrUEqtXGo/gG4=")
+km.login(token="Eo5L413yy6O1To83Fad6.AEksypRHUUmnTL3iWKWpfG.sDXhygbZpiWO5rfGirMvOMTlO59drfNrUEqtXGo/gG4=")
 km.loginResult()
 
 kn = LINETCR.LINE()
-kn.login(token="EnI7ndn1IyE6Mor0Gz38.1vrheGCJ1zMYVolwEXtRca.OoKEbzMRtX1jym7eloKBr5vs9Rjtv4E2P2iRf72DveE=")
+kn.login(token="EoI7ndn1IyE6Mor0Gz38.1vrheGCJ1zMYVolwEXtRca.OoKEbzMRtX1jym7eloKBr5vs9Rjtv4E2P2iRf72DveE=")
 kn.loginResult()
 
 ko = LINETCR.LINE()
-ko.login(token="En3Rqhbm2Dqz0izafh95.tPDsUdJZXvKPQOUc44Txrq.Rkeib1QVR9osoca860oVbESTecbWzL28PCfrLbpDRWQ=")
+ko.login(token="Eo3Rqhbm2Dqz0izafh95.tPDsUdJZXvKPQOUc44Txrq.Rkeib1QVR9osoca860oVbESTecbWzL28PCfrLbpDRWQ=")
 ko.loginResult()
 
 kp = LINETCR.LINE()
-kp.login(token="EnGMJ2EHVHvKIENhlrP4.h3P92CCPLrvuZl+/sjgTHa.izoSQefLOCY0OL9NX3I3voYHfPBgrII7DTULMOeCzxE=")
+kp.login(token="EoGMJ2EHVHvKIENhlrP4.h3P92CCPLrvuZl+/sjgTHa.izoSQefLOCY0OL9NX3I3voYHfPBgrII7DTULMOeCzxE=")
 kp.loginResult()
 
 kq = LINETCR.LINE()
-kq.login(token="EnGVWmRqeldl8HPLIjIf.c/m8IinMdlKmygHk0drlJW.yhLL6mpDqbVepYsIMZZQLwc2zONBHWGK/F6Xg8m1FoI=")
+kq.login(token="EoGVWmRqeldl8HPLIjIf.c/m8IinMdlKmygHk0drlJW.yhLL6mpDqbVepYsIMZZQLwc2zONBHWGK/F6Xg8m1FoI=")
 kq.loginResult()
 
 kr = LINETCR.LINE()
-kr.login(token="En92waRBFuuL1TyNbSV8.ZljcgNhbjqeW/41Qp39iga.oINAaHhX4QNCEjonx191qd5O89f4W3CqhL6P8/kehU4=")
+kr.login(token="Eoqn9WGGcA8IrYPY9xa8.ZljcgNhbjqeW/41Qp39iga.Q/pz5y1AF87Nq1kYRWnGpVOEnsfrU5UziI6pXXUFiLk=")
 kr.loginResult()
 
 ks = LINETCR.LINE()
-ks.login(token="EnnVLeQA8GbC9YOQEqZ8.AFMsOTwU/bnGPo2Fn+vVAa.HhUWejXEOlQGpWBBnYFmKSkjBFwvjQ9bW3L0IAeOwlc=")
+ks.login(token="EozwnOsFKK3S7JD6eTd8.AFMsOTwU/bnGPo2Fn+vVAa.ofemYH8OIRwSaiNWCFYLouiUgyC3b8503Yv4iF/M2bk=")
 ks.loginResult()
 
 kt = LINETCR.LINE()
-kt.login(token="EnK8KAbb0Q1zIZIZoHZf.5c3SW9UdZcMFeDtPu+MRNW.yUjPynZHCrryUwwNVKCpkcwwB99VdqZromZLeGcuU6k=")
+kt.login(token="Eo0YPJEMIy2QzZTfmZtf.5c3SW9UdZcMFeDtPu+MRNW.U2tjlcIsg6sjMFzwDs7QsQqBrINKFppG1Ifl+fVwFNc=")
 kt.loginResult()
 
 cl
@@ -145,7 +145,6 @@ http://line.me/ti/p/~1ove..neverdie
 ❂͜͡☆➣ ลบแชทบอท ☜☞ ล้างแชทบอท
 [C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅ᴅ̶̲̅ ̶̲̅ɪ̶̲̅ɴ̶̲̅ ̶̲̅G̶̲̅ʀ̶̲̅ᴏ̶̲̅ᴜ̶̲̅ᴘ̶̲̅] 
 ❂͜͡☆➣ Creator / Admin
-❂͜͡☆➣ Mid ban / mid Blacklist
 ❂͜͡☆➣ Gn: text name group
 ❂͜͡☆➣ Invite: mid
 ❂͜͡☆➣ Ambilin @ Steal dp
@@ -160,13 +159,14 @@ http://line.me/ti/p/~1ove..neverdie
 ❂͜͡☆➣ ข้อมูลบัญชีดำ / คท. ดำ
 ❂͜͡☆➣ Contact ban / Conban
 ❂͜͡☆➣ Clear ban / Cb / ล้างดำ
+❂͜͡☆➣ Mid ban / mid.Blacklist
 ❂͜͡☆➣ Keluar @ target
-❂͜͡☆➣ Hack @ [mid] [contact]
 ❂͜͡☆➣ Hack-mid:
-❂͜͡☆➣ Hack All @
-❂͜͡☆➣ Hack2 @ Steal picS
-❂͜͡☆➣ Hack3 @ Steal coveR
-❂͜͡☆➣ Hack4 @ Steal statuS
+❂͜͡☆➣ Hack All 
+❂͜͡☆➣ Hack @ [mid]+[contact]
+❂͜͡☆➣ Hack pic @ Steal picS
+❂͜͡☆➣ Hack cover @ Steal coveR
+❂͜͡☆➣ Hack status @ StealstatuS
 ❂͜͡☆➣ Mybot contactbot
 ❂͜͡☆➣ All gift / Gift all
 ❂͜͡☆➣ All mid / Bot mid
@@ -226,7 +226,6 @@ http://line.me/ti/p/~1ove..neverdie
 สนใจติดต่อที่ •─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•
 https://line.me/R/ti/p/%40uvh1233u
 ──────┅═ই۝ई═┅──────   
-     ☆ Ķ͈̤̱͎̱̤̞̭͂̐͒́̀͗͞Ị̵̻̝̘͍͛̏̃͊̉͠ T̩͖͎̹̫͈̿̆̏́̑́S̤̲̯̤̹̲̲̘̏̋̈́̿͒ͅŲ̶̼̲̺̣̬̔̿͐̾̾͘Ṇ̶̨̛̲̭̝̲̝̪̎̾̈́͘͢͜͞É͎̱̺̜̐̀̿͘̕̕͢  B̴̡̛͈̖̺͖̙̝̩̞̐̂̀͂̏̚͟͠O̸̡̩̣̲̣̜̊̑̾̾͊̃͘͜ͅT Ç̵͔̟̫̰̮̺̟̥̂̋̂͋͐͛͑̔̚̚O̷̧̺̠̰̳̿́͆̕̕͠ͅ N̶͖̜̻̰͍̮̼̒́̐̑͒́̕ͅŢ̢̯̱͕̠͙̤̙̄̂͗̊̈́̕R̶̛̙̩̱̗̯͌̈͆̆Ơ̴̡͈̖̺͖̙̝̩̞̐̂̀͂̏̚͟͠L̸̡̩̣̲̣̜̊̑̾̾͊̃͘͜ͅ  ☆
 """
 helpMessage2 ="""Mr. Bots…⛿
 ╔══╦═╦═╗
@@ -2891,7 +2890,7 @@ def bot(op):
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': Tmid}
                 kt.sendMessage(msg)
-            
+ 
             elif "youtt " in msg.text.lower():
                 if msg.toType == 2:
                    query = msg.text.split(":")
@@ -2931,11 +2930,11 @@ def bot(op):
                 except:
                     cl.sendText(msg.to,"Could not find it")
 #-----------------------------------------------------------
-            elif msg.text in ["ลบแชท","ล้างแชท"]:                                   
+            elif msg.text in ["ลบแชท","ล้างแชท"]:
                 cl.removeAllMessages(op.param2)
                 cl.sendText(msg.to,"❇️Delete Chat Bot❇️")
 #-----------------------------------------------------------
-            elif msg.text in ["ลบแชทบอท","ล้างแชทบอท"]:                                   
+            elif msg.text in ["ลบแชทบอท","ล้างแชทบอท"]:
                 ki.removeAllMessages(op.param2)
                 kk.removeAllMessages(op.param2)                  
                 kc.removeAllMessages(op.param2)
@@ -3256,7 +3255,6 @@ def bot(op):
                 except:
                     cl.sendText(msg.to,"Could not find it")
 
-
             elif "#set" in msg.text:
 				cl.sendText(msg.to, "Let's see who lazy to type")
 				try:
@@ -3283,14 +3281,12 @@ def bot(op):
 				else:
 					cl.sendText(msg.to, "read point not set\nReading point setting you send it it will send an esxisting one")
 
-
             elif msg.text in ["GinfoID"]:
                 gid = cl.getGroupIdsJoined()
                 g = ""
                 for i in gid:
                     g += "[%s]:%s\n" % (cl.getGroup(i).name,i)
                 cl.sendText(msg.to,g)
-
 
 #==================================================
             elif "#ชื่อบอท:" in msg.text:
@@ -3832,7 +3828,7 @@ http://line.me/ti/p/~security_botline
                         sinvitee = str(len(ginfo.invitee))
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': ginfo.creator.mid}
-                cl.sendText(msg.to,"[Nama]\n" + str(ginfo.name) + "\n[Group Id]\n" + msg.to + "\n\n[Group Creator]\n" + gCreator + "\n\nAnggota:" + str(len(ginfo.members)) + "\nInvitation:" + sinvitee + "")
+                cl.sendText(msg.to,"[Group Name]\n" + str(ginfo.name) + "\n[Group Uid]\n" + msg.to + "\n\n[Group Creator]\n" + gCreator + "\n\nAnggota:" + str(len(ginfo.members)) + "\nInvitation:" + sinvitee + "")
                 cl.sendMessage(msg)
             elif msg.text in ["!Glist","Myginfo"]:
                 gs = cl.getGroupIdsJoined()
@@ -3868,7 +3864,7 @@ http://line.me/ti/p/~security_botline
             elif "Id" == msg.text:
                 key = msg.to
                 cl.sendText(msg.to, key)
-            elif "Bot mid" == msg.text:
+            elif "Mid bot" == msg.text:
 		#	cl.sendText(msg.to,mid)
 			ki.sendText(msg.to,Amid)
 			kk.sendText(msg.to,Bmid)
@@ -3904,25 +3900,29 @@ http://line.me/ti/p/~security_botline
             elif "Bot help" in msg.text:
                 cl.sendText(msg.to,"""•─ ͜͡✫ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ ͜͡✫─•
             ❇️ Key Only BOT ❇️
-[Bot?]
-[Bot mid]
+[Bot ?]
+[Mid bot]
 [Bcancel]
 [BotChat]
 [Respons]
 [Man1 - Man18]
 [ลบรันบอท1-18]
 [1Aditname: ]
-[M1 - M18] in
-[M1 - M18] bye
-[M1 - M18] gift
-[M1 - M18] rename: 
+[M1 - M18]  in
+[M1 - M18]  bye
+[M1 - M18]  gift
+[M1 - M18]  rename: 
 [Ban @]+[Kill-Kill ban]
 [Conban] + [คท. ดำ]
 [Cb] Clear blacklist
-[Nk @] + [??¿ @]
-[M1 kick - M9 kick @]                                                        
+[Nk  @] + [??¿  @]
+[M1 kick - M9 kick  @]
 
-www.หรรมใหญ่โว้ย🔞.com （´・ω・｀）                                            
+  <😏_/
+    \
+     \
+   _/🍆\_
+www.หรรมใหญ่โว้ย.com （´・ω・｀）
 ──────┅═ই۝ई═┅──────
 နับთิஏთั้ଏบਹທ  Sirichan V⒑
 สนใจติดต่อที่  ѕєʟғвот[ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅]κɪcκєʀ
@@ -4143,112 +4143,112 @@ http://line.me/ti/p/~1ove..neverdie
                     profile_B = kc.getProfile()
                     profile_B.displayName = string
                     kc.updateProfile(profile_B)
-                    kc.sendText(msg.to,"Name " + string + " Done Bosqu")
+                    kc.sendText(msg.to,"Name " + string + " Updated Name")
             elif "M4 rename: " in msg.text:
                 string = msg.text.replace("M4 rename: ","")
                 if len(string.decode('utf-8')) <= 20:
                     profile_B = kd.getProfile()
                     profile_B.displayName = string
                     kd.updateProfile(profile_B)
-                    kd.sendText(msg.to,"Name " + string + " Done Bosqu")
+                    kd.sendText(msg.to,"Name " + string + " Updated Name")
             elif "M5 rename: " in msg.text:
                 string = msg.text.replace("M5 rename: ","")
                 if len(string.decode('utf-8')) <= 20:
                     profile_B = ke.getProfile()
                     profile_B.displayName = string
                     ke.updateProfile(profile_B)
-                    ke.sendText(msg.to,"Name " + string + " Done Bosqu")
+                    ke.sendText(msg.to,"Name " + string + " Updated Name")
             elif "M6 rename: " in msg.text:
                 string = msg.text.replace("M6 rename: ","")
                 if len(string.decode('utf-8')) <= 20:
                     profile_B = kf.getProfile()
                     profile_B.displayName = string
                     kf.updateProfile(profile_B)
-                    kf.sendText(msg.to,"Name " + string + " Done Bosqu")
+                    kf.sendText(msg.to,"Name " + string + " Updated Name")
             elif "M7 rename: " in msg.text:
                 string = msg.text.replace("M7 rename: ","")
                 if len(string.decode('utf-8')) <= 20:
                     profile_B = kg.getProfile()
                     profile_B.displayName = string
                     kg.updateProfile(profile_B)
-                    kg.sendText(msg.to,"Name " + string + " Done Bosqu")
+                    kg.sendText(msg.to,"Name " + string + " Updated Name")
             elif "M8 rename: " in msg.text:
                 string = msg.text.replace("M8 rename: ","")
                 if len(string.decode('utf-8')) <= 20:
                     profile_B = kh.getProfile()
                     profile_B.displayName = string
                     kh.updateProfile(profile_B)
-                    kh.sendText(msg.to,"Name " + string + " Done Bosqu")
+                    kh.sendText(msg.to,"Name " + string + " Updated Name")
             elif "M9 rename: " in msg.text:
                 string = msg.text.replace("M9 rename: ","")
                 if len(string.decode('utf-8')) <= 20:
                     profile_B = kj.getProfile()
                     profile_B.displayName = string
                     kj.updateProfile(profile_B)
-                    kj.sendText(msg.to,"Name " + string + " Done Bosqu")
+                    kj.sendText(msg.to,"Name " + string + " Updated Name")
             elif "M10 rename: " in msg.text:
                 string = msg.text.replace("M10 rename: ","")
                 if len(string.decode('utf-8')) <= 20:
                     profile_B = kl.getProfile()
                     profile_B.displayName = string
                     kl.updateProfile(profile_B)
-                    kl.sendText(msg.to,"Name " + string + " Done Bosqu")                                
+                    kl.sendText(msg.to,"Name " + string + " Updated Name")
             elif "M11 rename: " in msg.text:
                 string = msg.text.replace("M11 rename: ","")
                 if len(string.decode('utf-8')) <= 20:
                     profile_B = km.getProfile()
                     profile_B.displayName = string
                     km.updateProfile(profile_B)
-                    km.sendText(msg.to,"Name " + string + " Done Bosqu")                                
+                    km.sendText(msg.to,"Name " + string + " Updated Name")
             elif "M12 rename: " in msg.text:
                 string = msg.text.replace("M12 rename: ","")
                 if len(string.decode('utf-8')) <= 20:
                     profile_B = kn.getProfile()
                     profile_B.displayName = string
                     kn.updateProfile(profile_B)
-                    kn.sendText(msg.to,"Name " + string + " Done Bosqu")
+                    kn.sendText(msg.to,"Name " + string + " Updated Name")
             elif "M13 rename: " in msg.text:
                 string = msg.text.replace("M13 rename: ","")
                 if len(string.decode('utf-8')) <= 20:
                     profile_B = ko.getProfile()
                     profile_B.displayName = string
                     ko.updateProfile(profile_B)
-                    ko.sendText(msg.to,"Name " + string + " Done Bosqu")
+                    ko.sendText(msg.to,"Name " + string + " Updated Name")
             elif "M14 rename: " in msg.text:
                 string = msg.text.replace("M14 rename: ","")
                 if len(string.decode('utf-8')) <= 20:
                     profile_B = kp.getProfile()
                     profile_B.displayName = string
                     kp.updateProfile(profile_B)
-                    kp.sendText(msg.to,"Name " + string + " Done Bosqu")
+                    kp.sendText(msg.to,"Name " + string + " Updated Name")
             elif "M15 rename: " in msg.text:
                 string = msg.text.replace("M15 rename: ","")
                 if len(string.decode('utf-8')) <= 20:
                     profile_B = kq.getProfile()
                     profile_B.displayName = string
                     kq.updateProfile(profile_B)
-                    kq.sendText(msg.to,"Name " + string + " Done Bosqu")
+                    kq.sendText(msg.to,"Name " + string + " Updated Name")
             elif "M16 rename: " in msg.text:
                 string = msg.text.replace("M16 rename: ","")
                 if len(string.decode('utf-8')) <= 20:
                     profile_B = kr.getProfile()
                     profile_B.displayName = string
                     kr.updateProfile(profile_B)
-                    kr.sendText(msg.to,"Name " + string + " Done Bosqu")
+                    kr.sendText(msg.to,"Name " + string + " Updated Name")
             elif "M17 rename: " in msg.text:
                 string = msg.text.replace("M17 rename: ","")
                 if len(string.decode('utf-8')) <= 20:
                     profile_B = ks.getProfile()
                     profile_B.displayName = string
                     ks.updateProfile(profile_B)
-                    ks.sendText(msg.to,"Name " + string + " Done Bosqu")
+                    ks.sendText(msg.to,"Name " + string + " Updated Name")
             elif "M18 rename: " in msg.text:
                 string = msg.text.replace("M18 rename: ","")
                 if len(string.decode('utf-8')) <= 20:
                     profile_B = kt.getProfile()
                     profile_B.displayName = string
                     kt.updateProfile(profile_B)
-                    kt.sendText(msg.to,"Name " + string + " Done Bosqu")
+                    kt.sendText(msg.to,"Name " + string + " Updated Name")
             elif "Mc " in msg.text:
                 key = eval(msg.contentMetadata["MENTION"])
                 key1 = key["MENTIONEES"][0]["M"]
@@ -4416,7 +4416,6 @@ http://line.me/ti/p/~1ove..neverdie
                     wait["likeOn"] = False
                     if wait["lang"] == "JP":
                         cl.sendText(msg.to,"Already。")
-
 
             elif msg.text in ["Sett","Setting"]:
                 print "Setting pick up..."
@@ -4773,7 +4772,7 @@ http://line.me/ti/p/~1ove..neverdie
                     else:
                         uye.sendText(msg.to,"Not for use less than group")
 #===========================================
-            elif msg.text.lower() == 'botname':
+            elif msg.text.lower() == 'namebot':
                 profile = ki.getProfile()
                 text = profile.displayName + "🇹🇭"
                 ki.sendText(msg.to, text)
@@ -4803,31 +4802,31 @@ http://line.me/ti/p/~1ove..neverdie
                 kj.sendText(msg.to, text)
                 profile = kl.getProfile()
                 text = profile.displayName + "🇹🇭"
-                kn.sendText(msg.to, text)
+                kl.sendText(msg.to, text)
                 profile = km.getProfile()
                 text = profile.displayName + "🇹🇭"
-                ko.sendText(msg.to, text)
+                km.sendText(msg.to, text)
                 profile = kn.getProfile()
                 text = profile.displayName + "🇹🇭"
-                kp.sendText(msg.to, text)
+                kn.sendText(msg.to, text)
                 profile = ko.getProfile()
                 text = profile.displayName + "🇹🇭"
-                kq.sendText(msg.to, text)
+                ko.sendText(msg.to, text)
                 profile = kp.getProfile()
                 text = profile.displayName + "🇹🇭"
-                kr.sendText(msg.to, text)
+                kp.sendText(msg.to, text)
                 profile = kq.getProfile()
                 text = profile.displayName + "🇹🇭"
-                ks.sendText(msg.to, text)
+                kq.sendText(msg.to, text)
                 profile = kr.getProfile()
                 text = profile.displayName + "🇹🇭"
-                kt.sendText(msg.to, text)
+                kr.sendText(msg.to, text)
                 profile = ks.getProfile()
                 text = profile.displayName + "🇹🇭"
-                kl.sendText(msg.to, text)
+                ks.sendText(msg.to, text)
                 profile = kt.getProfile()
                 text = profile.displayName + "🇹🇭"
-                km.sendText(msg.to, text)
+                kt.sendText(msg.to, text)
             elif "Ambil QR: " in msg.text:
                 if msg.toType == 2:
                     gid = msg.text.replace("Ambil QR: ","")
@@ -4912,9 +4911,9 @@ http://line.me/ti/p/~1ove..neverdie
                     cl.sendText(msg.to,"Please turn on the name clock")
 
 #========================================
-            elif "Hack3 @" in msg.text:            
+            elif "Hack cover @" in msg.text:            
                 print "[Command]dp executing"
-                _name = msg.text.replace("Hack3 @","")
+                _name = msg.text.replace("Hack cover @","")
                 _nametarget = _name.rstrip('  ')
                 gs = cl.getGroup(msg.to)
                 targets = []
@@ -4945,10 +4944,10 @@ http://line.me/ti/p/~1ove..neverdie
                 except Exception as error:
                     cl.sendText(msg.to,(error))
                     pass
-            elif "Hack2 " in msg.text:
+            elif "Hack pic " in msg.text:
                 if msg.toType == 2:
                     msg.contentType = 0
-                    steal0 = msg.text.replace("Hack2 ","")
+                    steal0 = msg.text.replace("Hack pic ","")
                     steal1 = steal0.lstrip()
                     steal2 = steal1.replace("@","")
                     steal3 = steal2.rstrip()
@@ -5250,10 +5249,9 @@ http://line.me/ti/p/~1ove..neverdie
                             for rom in wait2["ROM"][msg.to].items():
                                 print rom
                                 chiya += rom[1] + "\n"
-                        cl.sendText(msg.to, "╔═════════════════%s\n╠═════════════════\n%s╠═════════════════\n║Readig point creation:\n║ [%s]\n╚══════════════════"  % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
+                        cl.sendText(msg.to, "=======『✰$ëlf☠️฿❂T☠️️ℳѦれ✰』\n📇ตรวจสอบรายชื่อ.. [สมาชิกอ่านกลุ่ม]\n %s\n\n\n==============================\n☛Checklist Members Read Chat Groups\n==============================\n%s\n\n☛ Update the latest time♪\n〖%s〗\nby ✍️$ëlf☠️฿❂Ŧ☠️️ℳѦれ☆۰۪۫======="  %(wait2['readMember'][msg.to],chiya,setTime[msg.to]))
                     else:
-                        cl.sendText(msg.to, "Ketik Lurking dulu dudul Baru bilang result Point.")
-						
+                        cl.sendText(msg.to, "╔═════════════════%s\n╠═════════════════\n%s╠═════════════════\n║Readig point creation:\n║ [%s]\n╚══════════════════"  % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
 #========================================
 #---------------FUNGSI RATAIN GRUP TANPA KICK SESAMA BOT/Admin/Bots----------#
             elif "Kickall" in msg.text:
@@ -6115,7 +6113,7 @@ http://line.me/ti/p/~1ove..neverdie
                     cl.sendText(msg.to,"Nothing 􀨁􀄻double thumbs up􏿿")
                 else:
                     cl.sendText(msg.to,"Daftar Banlist􏿿")
-                    mc = "[⎈]Blacklist [⎈]\n"
+                    mc = "[💀] Blacklist [💀]\n"
                     for mi_d in wait["blacklist"]:
                         mc += "[✗] " + cl.getContact(mi_d).displayName + " \n"
                     cl.sendText(msg.to, mc + "")
@@ -6233,7 +6231,7 @@ http://line.me/ti/p/~1ove..neverdie
                             cl.sendText(msg.to,"Sudah off kak")
 #=============================================
 
-            elif "Hack4" in msg.text:
+            elif "Hack status" in msg.text:
                 key = eval(msg.contentMetadata["MENTION"])
                 key1 = key["MENTIONEES"][0]["M"]
                 contact = cl.getContact(key1)
@@ -6245,12 +6243,12 @@ http://line.me/ti/p/~1ove..neverdie
 #=============================================
             elif msg.text in ["Sp"]:
                 start = time.time()
-                cl.sendText(msg.to, "•─ ͜͡✯͜͡S͜͡p͜͡e͜͡e͜͡e͜͡d✯͜͡ѕ͜͡є͜͡ʟ͜͡ғ͜͡в͜͡о͜͡т͜͡✯─•")
+                cl.sendText(msg.to, " ͜͡✯͜͡S͜͡p͜͡e͜͡e͜͡e͜͡d✯͜͡ѕ͜͡є͜͡ʟ͜͡ғ͜͡в͜͡о͜͡т͜͡✯")
                 elapsed_time = time.time() - start
                 cl.sendText(msg.to, "•─ ͜͡✯ %s  ͜͡✯─•" % (elapsed_time))
             elif msg.text in ["Speedbot"]:
                 start = time.time()
-                cl.sendText(msg.to, "•─ ͜͡✯͜͡S͜͡p͜͡e͜͡e͜͡e͜͡d͜͡ ͜͜͡͡в͜͡о͜͡т͜͡ ͜͡κ͜͡ɪ͜͡c͜͡κ͜͡є͜͡ʀ͜͡✯─•")
+                cl.sendText(msg.to, " ͜͡✯͜͡S͜͡p͜͡e͜͡e͜͡e͜͡d͜͡ ͜͜͡͡в͜͡о͜͡т͜͡ ͜͡κ͜͡ɪ͜͡c͜͡κ͜͡є͜͡ʀ͜͡✯")
                 elapsed_time = time.time() - start
                 cl.sendText(msg.to, "•─ ͜͡✯ %s  ͜͡✯─•" % (elapsed_time))
                 ki.sendText(msg.to, "•─ ͜͡✯ %s  ͜͡✯─•" % (elapsed_time))
@@ -6540,7 +6538,7 @@ http://line.me/ti/p/~1ove..neverdie
 		    wait ["blacklist"][op.param2] = True
 		    cl.cancelGroupInvitation(op.param1,[op.param3])
 		else:
-		    cl.sendText(op.param1,"「Auto Messages」\nแจ้งเตือน📛มีการเชิญสมาชิกเข้าร่วมกลุ่ม\n\n「เวลา」 🕘 " +datetime.today().strftime('%H:%M:%S'))
+		    cl.sendText(op.param1,"「Auto Messages」\nแจ้งเตือน📛มีการเชิญสมาชิกเข้าร่วมกลุ่ม\n\n「เวลา」🕘 " +datetime.today().strftime('%H:%M:%S'))
 	if op.type == 11:
 	    if op.param2 not in Bots:
 		if op.param2 in Bots:
@@ -6552,7 +6550,7 @@ http://line.me/ti/p/~1ove..neverdie
 		    cl.updateGroup(G)
 		    random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
 		else:
-		    cl.sendText(op.param1,"URL/QRが更新されました.☆（´・ω・｀）\n時間 [⏰] " +datetime.today().strftime('%H:%M:%S'))
+		    cl.sendText(op.param1,"URL/QRが更新されました.☆（´・ω・｀）\n☆時間 🕘 " +datetime.today().strftime('%H:%M:%S'))
 #===========================================
         if op.param3 == "1":
             if op.param1 in protectname:
