@@ -41,12 +41,11 @@ class LINE:
       raise Exception("invalid arguments")
 
     self.authToken = self.Talk.authToken
-    self.headers = {'X-Line-Application': 'CHROMEOS\t7.18.0\tChrome_OS\t1', 'X-Line-Access': self.authToken, 'User-Agent': 'Line/7.18.0 iPad4,1 9.0.2'}
     self.cert = self.Talk.cert
     self._headers = {
-              'X-Line-Application': 'CHROMEOS\t7.18.0\tChrome_OS\t1', 
-              'X-Line-Access': self.authToken, 
-              'User-Agent': 'Line/7.18.0 iPad4,1 9.0.2'
+              'X-Line-Application': 'IOSIPAD\t7.14.0\tiPhone OS\t10.12.0',
+              'X-Line-Access': self.authToken,
+              'User-Agent': 'Line/7.14.0'
    }
 
     self.Poll = Poll(self.authToken)
