@@ -122,25 +122,25 @@ http://line.me/ti/p/~1ove..neverdie
 ❂͜͡☆➣ Comment set:
 ❂͜͡☆➣ Cbroadcast text
 ❂͜͡☆➣ Gbroadcast text
-❂͜͡☆➣ Reject ☞  ลบรัน
-❂͜͡☆➣ Reject1 ☞ ลบรันบอท1
-❂͜͡☆➣ Reject2 ☞ ลบรันบอท2
-❂͜͡☆➣ Reject3 ☞ ลบรันบอท3
-❂͜͡☆➣ Reject4 ☞ ลบรันบอท4
-❂͜͡☆➣ Reject5 ☞ ลบรันบอท5
-❂͜͡☆➣ Reject6 ☞ ลบรันบอท6
-❂͜͡☆➣ Reject7 ☞ ลบรันบอท7
-❂͜͡☆➣ Reject8 ☞ ลบรันบอท8
-❂͜͡☆➣ Reject9 ☞ ลบรันบอท9
-❂͜͡☆➣ Reject10 ☞ ลบรันบอท10
-❂͜͡☆➣ Reject11 ☞ ลบรันบอท11
-❂͜͡☆➣ Reject12 ☞ ลบรันบอท12
-❂͜͡☆➣ Reject13 ☞ ลบรันบอท13
-❂͜͡☆➣ Reject14 ☞ ลบรันบอท14
-❂͜͡☆➣ Reject15 ☞ ลบรันบอท15
-❂͜͡☆➣ Reject16 ☞ ลบรันบอท16
-❂͜͡☆➣ Reject17 ☞ ลบรันบอท17
-❂͜͡☆➣ Reject18 ☞ ลบรันบอท18
+❂͜͡☆➣ Reject  ❇️ ลบรัน
+❂͜͡☆➣ Reject1 ❇️ ลบรันบอท1
+❂͜͡☆➣ Reject2 ❇️ ลบรันบอท2
+❂͜͡☆➣ Reject3 ❇️ ลบรันบอท3
+❂͜͡☆➣ Reject4 ❇️ ลบรันบอท4
+❂͜͡☆➣ Reject5 ❇️ ลบรันบอท5
+❂͜͡☆➣ Reject6 ❇️ ลบรันบอท6
+❂͜͡☆➣ Reject7 ❇️ ลบรันบอท7
+❂͜͡☆➣ Reject8 ❇️ ลบรันบอท8
+❂͜͡☆➣ Reject9 ❇️ ลบรันบอท9
+❂͜͡☆➣ Reject10 ❇️ ลบรันบอท10
+❂͜͡☆➣ Reject11 ❇️ ลบรันบอท11
+❂͜͡☆➣ Reject12 ❇️ ลบรันบอท12
+❂͜͡☆➣ Reject13 ❇️ ลบรันบอท13
+❂͜͡☆➣ Reject14 ❇️ ลบรันบอท14
+❂͜͡☆➣ Reject15 ❇️ ลบรันบอท15
+❂͜͡☆➣ Reject16 ❇️ ลบรันบอท16
+❂͜͡☆➣ Reject17 ❇️ ลบรันบอท17
+❂͜͡☆➣ Reject18 ❇️ ลบรันบอท18
 ❂͜͡☆➣ ลบแชท  ☜☞  ล้างแชท
 ❂͜͡☆➣ ลบแชทบอท ☜☞ ล้างแชทบอท
 [C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅ᴅ̶̲̅ ̶̲̅ɪ̶̲̅ɴ̶̲̅ ̶̲̅G̶̲̅ʀ̶̲̅ᴏ̶̲̅ᴜ̶̲̅ᴘ̶̲̅] 
@@ -163,7 +163,7 @@ http://line.me/ti/p/~1ove..neverdie
 ❂͜͡☆➣ Keluar @ target
 ❂͜͡☆➣ Hack-mid:
 ❂͜͡☆➣ Hack All 
-❂͜͡☆➣ Hack @ [mid]+[contact]
+❂͜͡☆➣ Hack: @tag [mid+contact]
 ❂͜͡☆➣ Hack pic @ Steal picS
 ❂͜͡☆➣ Hack cover @ Steal coveR
 ❂͜͡☆➣ Hack status @ StealstatuS
@@ -3885,7 +3885,7 @@ http://line.me/ti/p/~security_botline
 			ks.sendText(msg.to,Smid)
 			kt.sendText(msg.to,Tmid)
 				
-            elif ("Hack " in msg.text):
+            elif ("Hack: " in msg.text):
                    key = eval(msg.contentMetadata["MENTION"])
                    key1 = key["MENTIONEES"][0]["M"]
                    mi = cl.getContact(key1)
