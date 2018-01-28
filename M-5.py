@@ -283,7 +283,7 @@ def bot(op):
                         cl.kickoutFromGroup(msg.to,[jj])
                     cl.sendText(msg.to,"Blacklist user flushing is complete")
 
-         if op.type == 15:
+        if op.type == 15:
             if op.param2 in bot1:
                 return
             cl.sendText(op.param1,"👋Ɓy℮ Bye ☛" + cl.getContact(op.param2).displayName + "☚ \n\n「REPORT MEMBER LEAVE OUT GROUP」 🕘 " + datetime.today().strftime('%H:%M:%S') )
