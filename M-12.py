@@ -12,56 +12,6 @@ cl = LINETCR.LINE()
 cl.login(token="ใส่โทเค็น")
 cl.loginResult()
 
-ki = LINETCR.LINE()
-ki.login(token="ใส่โทเค็น")
-ki.loginResult()
-
-kk = LINETCR.LINE()
-kk.login(token="ใส่โทเค็น")
-kk.loginResult()
-
-ks = LINETCR.LINE()
-ks.login(token="ใส่โทเค็น")
-ks.loginResult()
-
-kc = LINETCR.LINE()
-kc.login(token="ใส่โทเค็น")
-kc.loginResult()
-
-ka = LINETCR.LINE()
-ka.login(token="ใส่โทเค็น")
-ka.loginResult()
-
-km = LINETCR.LINE()
-km.login(token="ใส่โทเค็น")
-km.loginResult()
-
-kn = LINETCR.LINE()
-kn.login(token="ใส่โทเค็น")
-kn.loginResult()
-
-ko = LINETCR.LINE()
-ko.login(token="ใส่โทเค็น")
-ko.loginResult()
-
-kp = LINETCR.LINE()
-kp.login(token="ใส่โทเค็น")
-kp.loginResult()
-
-kq = LINETCR.LINE()
-kq.login(token="ใส่โทเค็น")
-kq.loginResult()
-
-kr = LINETCR.LINE()
-kr.login(token="ใส่โทเค็น")
-kr.loginResult()
-
-kj = LINETCR.LINE()
-kj.login(token="ใส่โทเค็น")
-kj.loginResult()
-
-cl
-
 with open('profileSave.pkl') as f:
     save1 = pickle.load(f)
 
